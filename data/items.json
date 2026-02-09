@@ -1,0 +1,2614 @@
+{
+    "meta":  {
+                 "version":  "16.3.1",
+                 "locale":  "it_IT",
+                 "generatedAt":  "2026-02-09T15:36:08"
+             },
+    "items":  [
+                  {
+                      "id":  "2065",
+                      "name":  "Canto di guerra di Shurelya",
+                      "plaintext":  "Da attivare per velocizzare gli alleati nelle vicinanze.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e50\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003cbr\u003e\u003cattention\u003e125%\u003c/attention\u003e rigenerazione mana base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cactive\u003eDiscorso esaltante\u003c/active\u003e\u003cbr\u003eConferisci agli alleati vicini \u003cspeed\u003e30% velocitÃ  di movimento\u003c/speed\u003e per 4 secondi.\u003c/mainText\u003e",
+                      "icon":  "2065.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "ManaRegen",
+                                   "Active",
+                                   "CooldownReduction",
+                                   "NonbootsMovement",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  400,
+                                   "purchasable":  true,
+                                   "total":  2200,
+                                   "sell":  1540
+                               }
+                  },
+                  {
+                      "id":  "2501",
+                      "name":  "Cotta di maglia del signore supremo",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e30\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e550\u003c/attention\u003e salute\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eTirannia:\u003c/passive\u003e\u003cbr\u003eOttieni un 2.5% della tua \u003chealing\u003esalute bonus\u003c/healing\u003e come \u003cscaleAD\u003eattacco fisico\u003c/scaleAD\u003e. \u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eCastigo:\u003c/passive\u003e\u003cbr\u003eOttieni fino a un 12% di \u003cscaleAD\u003eattacco fisico aumentato\u003c/scaleAD\u003e in base alla percentuale di salute mancante. \u003c/mainText\u003e",
+                      "icon":  "2501.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  1000,
+                                   "purchasable":  true,
+                                   "total":  3300,
+                                   "sell":  2310
+                               }
+                  },
+                  {
+                      "id":  "2502",
+                      "name":  "Disperazione eterna",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e400\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e50\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eTormento\u003c/passive\u003e\u003cbr\u003eOgni 4 secondi trascorsi in combattimento contro campioni, infliggi \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e ai campioni nemici vicini e \u003chealing\u003eti curi di un 250%\u003c/healing\u003e dei danni inflitti.\u003c/mainText\u003e",
+                      "icon":  "2502.png",
+                      "tags":  [
+                                   "Health",
+                                   "Armor",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  2800,
+                                   "sell":  1960
+                               }
+                  },
+                  {
+                      "id":  "2503",
+                      "name":  "Torcia del fuoco tetro",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e80\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e600\u003c/attention\u003e mana\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFiammata funesta\u003c/passive\u003e\u003cbr\u003eLe tue abilitÃ  che infliggono danni infliggono \u003cmagicDamage\u003edanni magici bonus\u003c/magicDamage\u003e per 3 secondi.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFuoco tetro\u003c/passive\u003e\u003cbr\u003ePer ogni campione nemico e mostro epico e grande affetto da \u003cpassive\u003eFiammata funesta\u003c/passive\u003e, ottieni \u003cscaleAP\u003e4% potere magico\u003c/scaleAP\u003e. \u003c/mainText\u003e",
+                      "icon":  "2503.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "Mana",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  700,
+                                   "purchasable":  true,
+                                   "total":  2800,
+                                   "sell":  1960
+                               }
+                  },
+                  {
+                      "id":  "2504",
+                      "name":  "Rookern kaenico",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e400\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e80\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e100%\u003c/attention\u003e rigenerazione salute base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eCastigamaghi\u003c/passive\u003e\u003cbr\u003eDopo non aver subito danni magici per 15 secondi, ottieni uno \u003cshield\u003escudo magico\u003c/shield\u003e. \u003c/mainText\u003e",
+                      "icon":  "2504.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellBlock",
+                                   "HealthRegen"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  2900,
+                                   "sell":  2030
+                               }
+                  },
+                  {
+                      "id":  "2510",
+                      "name":  "Crepuscolo e Alba",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e350\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e70\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLama incantata\u003c/passive\u003e (0 secondo/i)\u003cbr\u003eDopo aver usato un\u0027abilitÃ , il tuo prossimo attacco infligge \u003cmagicDamage\u003e0 danni magici bonus\u003c/magicDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e e applica gli effetti \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e una volta in piÃ¹.\u003c/mainText\u003e",
+                      "icon":  "2510.png",
+                      "tags":  [
+                                   "Health",
+                                   "AttackSpeed",
+                                   "SpellDamage",
+                                   "OnHit",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  300,
+                                   "purchasable":  true,
+                                   "total":  3100,
+                                   "sell":  2170
+                               }
+                  },
+                  {
+                      "id":  "2512",
+                      "name":  "Dardi del Cacciademoni",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e45%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eVeglia notturna\u003c/passive\u003e\u003cbr\u003eOttieni 30 velocitÃ  abilitÃ  suprema.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSbarramento iniziale\u003c/passive\u003e\u003cbr\u003eDopo aver lanciato la suprema, i tuoi prossimi 3 attacchi base ottengono \u003cattackSpeed\u003e50% velocitÃ  d\u0027attacco\u003c/attackSpeed\u003e e infliggono un 80% dei tuoi normali danni critici per 8 secondo/i. Se un attacco sarebbe stato comunque critico, infligge invece un \u003ctrueDamage\u003e15% di danni puri bonus\u003c/trueDamage\u003e.\u003c/mainText\u003e",
+                      "icon":  "2512.png",
+                      "tags":  [
+                                   "CriticalStrike",
+                                   "AttackSpeed",
+                                   "NonbootsMovement",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  850,
+                                   "purchasable":  true,
+                                   "total":  2650,
+                                   "sell":  1855
+                               }
+                  },
+                  {
+                      "id":  "2517",
+                      "name":  "Fame perenne",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e65\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e5%\u003c/attention\u003e rubavita globale\u003cbr\u003e\u003cattention\u003e20%\u003c/attention\u003e Tenacia\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFame\u003c/passive\u003e\u003cbr\u003eOttieni 0 velocitÃ  abilitÃ .\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eBanchetto\u003c/passive\u003e\u003cbr\u003eQuando un campione che hai danneggiato negli ultimi 3 secondo/i muore, ottieni \u003comnivamp\u003e15% rubavita globale\u003c/omnivamp\u003e per 8 secondo/i. \u003c/mainText\u003e",
+                      "icon":  "2517.png",
+                      "tags":  [
+                                   "Damage",
+                                   "LifeSteal",
+                                   "SpellVamp",
+                                   "Tenacity",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  825,
+                                   "purchasable":  true,
+                                   "total":  3100,
+                                   "sell":  2170
+                               }
+                  },
+                  {
+                      "id":  "2520",
+                      "name":  "Spezzabastioni",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 22\u003c/attention\u003e LetalitÃ \u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eCarica modellata\u003c/passive\u003e (0 secondo/i)\u003cbr\u003eInfliggere danni abilitÃ  a un campione o a un mostro epico infligge ulteriori \u003ctrueDamage\u003e0 danni puri\u003c/trueDamage\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSabotaggio\u003c/passive\u003e\u003cbr\u003eEliminare un campione entro 3 secondo/i dopo averlo danneggiato conferisce Sabotaggio per 90 secondo/i. Durante Sabotaggio, il tuo attacco successivo contro un mostro epico o una torre infligge \u003ctrueDamage\u003e0 danni puri\u003c/trueDamage\u003e aggiuntivi nell\u0027arco di 3 secondo/i. \u003c/mainText\u003e",
+                      "icon":  "2520.png",
+                      "tags":  [
+                                   "Damage",
+                                   "ArmorPenetration",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  863,
+                                   "purchasable":  true,
+                                   "total":  3200,
+                                   "sell":  2240
+                               }
+                  },
+                  {
+                      "id":  "2522",
+                      "name":  "Realizzatore",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e90\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e300\u003c/attention\u003e mana\u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cactive\u003eMana traboccante\u003c/active\u003e (0 secondo/i)\u003cbr\u003ePer 8 secondo/i, il tuo mana Ã¨ potenziato. Durante il potenziamento, le tue abilitÃ  costano un 100% di mana in piÃ¹, ottieni danni abilitÃ , scudo e guarigione aumentati di 0 e le ricariche delle tue abilitÃ  base sono piÃ¹ rapide di un 30%.\u003c/mainText\u003e",
+                      "icon":  "2522.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "Mana",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  750,
+                                   "purchasable":  true,
+                                   "total":  2800,
+                                   "sell":  1960
+                               }
+                  },
+                  {
+                      "id":  "2523",
+                      "name":  "Ottica Hextech C44",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eIngrandimento\u003c/passive\u003e\u003cbr\u003eInfliggi danni aumentati fino a un 10% con gli attacchi, in base alla distanza dal nemico (danni massimi a una distanza di 600).\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eMira arcana\u003c/passive\u003e\u003cbr\u003eQuando un campione che hai danneggiato negli ultimi 3 secondi muore, ottieni 100 gittata d\u0027attacco aggiuntiva per 6 secondi. \u003c/mainText\u003e",
+                      "icon":  "2523.png",
+                      "tags":  [
+                                   "Damage",
+                                   "CriticalStrike"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  275,
+                                   "purchasable":  true,
+                                   "total":  2800,
+                                   "sell":  1960
+                               }
+                  },
+                  {
+                      "id":  "2524",
+                      "name":  "Cornafusa",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e200\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e resistenza magica\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFanfara\u003c/passive\u003e\u003cbr\u003e\u003ckeyword\u003eRallentare\u003c/keyword\u003e o \u003ckeyword\u003eimmobilizzare\u003c/keyword\u003e un campione nemico conferisce Fanfara per 0 secondo/i. Fanfara conferisce \u003cspeed\u003e20 velocitÃ  di movimento\u003c/speed\u003e. Durante Fanfara, gli alleati nelle vicinanze, te compreso, ottengono \u003cattackSpeed\u003e0 velocitÃ  d\u0027attacco\u003c/attackSpeed\u003e.\u003c/mainText\u003e",
+                      "icon":  "2524.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellBlock",
+                                   "Armor",
+                                   "AttackSpeed",
+                                   "NonbootsMovement",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  2300,
+                                   "sell":  1610
+                               }
+                  },
+                  {
+                      "id":  "2525",
+                      "name":  "Cintura protoplasmatica",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e600\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLinea vitale\u003c/passive\u003e (0 secondo/i)\u003cbr\u003eQuando subisci danni che porterebbero la tua salute sotto a un 30% ottieni \u003chealth\u003e0 salute massima\u003c/health\u003e per 5 secondi, poi ti curi di \u003chealth\u003e0 salute\u003c/health\u003e nell\u0027arco della durata. Mentre rigeneri la salute, le tue dimensioni aumentano di un 15%, ottieni un 10% di velocitÃ  di movimento e un 25% di Tenacia. \u003c/mainText\u003e",
+                      "icon":  "2525.png",
+                      "tags":  [
+                                   "Health",
+                                   "NonbootsMovement",
+                                   "Tenacity",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  2500,
+                                   "sell":  1750
+                               }
+                  },
+                  {
+                      "id":  "3002",
+                      "name":  "Apripista",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e250\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e40\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFare strada\u003c/passive\u003e\u003cbr\u003eMentre ti muovi, accumuli fino a \u003cspeed\u003e20 velocitÃ  di movimento bonus\u003c/speed\u003e. \u003cbr\u003eA velocitÃ  massima:\u003cli\u003eCrea una scia che conferisce ai campioni alleati \u003cspeed\u003evelocitÃ  di movimento pari a un 15%\u003c/speed\u003e della tua. \u003cli\u003eSe sei un campione da mischia, il tuo attacco successivo \u003ckeyword\u003erallenta\u003c/keyword\u003e il bersaglio di un 50% per 1 secondo/i.\u003cbr\u003e\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "3002.png",
+                      "tags":  [
+                                   "Health",
+                                   "Armor",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  2400,
+                                   "sell":  1680
+                               }
+                  },
+                  {
+                      "id":  "3003",
+                      "name":  "Scettro dell\u0027arcangelo",
+                      "plaintext":  "Aumenta il potere magico in base al mana massimo.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e70\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e600\u003c/attention\u003e mana\u003cbr\u003e\u003cattention\u003e25\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eAmmirazione\u003c/passive\u003e\u003cbr\u003eOttieni potere magico pari a un \u003cscaleMana\u003e1% del mana bonus.\u003c/scaleMana\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFlusso di mana\u003c/passive\u003e (8 secondo/i, massimo 5 cariche)\u003cbr\u003eColpire con le abilitÃ  conferisce \u003cscaleMana\u003e5 mana massimo\u003c/scaleMana\u003e (raddoppiato contro i campioni).\u003cbr\u003eA \u003cscaleMana\u003e360 mana massimo\u003c/scaleMana\u003e, si trasforma in \u003crarityLegendary\u003eAbbraccio serafico\u003c/rarityLegendary\u003e.\u003c/mainText\u003e",
+                      "icon":  "3003.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "Mana",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  true,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  450,
+                                   "purchasable":  true,
+                                   "total":  2900,
+                                   "sell":  2030
+                               }
+                  },
+                  {
+                      "id":  "3004",
+                      "name":  "Manamune",
+                      "plaintext":  "Aumenta l\u0027attacco fisico in base al mana massimo.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e35\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e500\u003c/attention\u003e mana\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eAmmirazione\u003c/passive\u003e\u003cbr\u003eOttiene \u003cscaleAD\u003e0 Attacco fisico bonus\u003c/scaleAD\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFlusso di mana\u003c/passive\u003e (8 secondo/i, massimo 4 cariche)\u003cbr\u003eColpire con le abilitÃ  e gli attacchi base conferisce \u003cscaleMana\u003e3 mana massimo\u003c/scaleMana\u003e (raddoppiato contro i campioni).\u003cbr\u003eA \u003cscaleMana\u003e360 mana massimo\u003c/scaleMana\u003e, si trasforma in \u003crarityLegendary\u003eMuramana\u003c/rarityLegendary\u003e.\u003c/mainText\u003e",
+                      "icon":  "3004.png",
+                      "tags":  [
+                                   "Damage",
+                                   "Mana",
+                                   "CooldownReduction",
+                                   "OnHit",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  true,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  1100,
+                                   "purchasable":  true,
+                                   "total":  2900,
+                                   "sell":  2030
+                               }
+                  },
+                  {
+                      "id":  "3006",
+                      "name":  "Gambali del berserker",
+                      "plaintext":  "Potenzia movimento e velocitÃ  d\u0027attacco.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e25%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "3006.png",
+                      "tags":  [
+                                   "AttackSpeed",
+                                   "Boots"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  300,
+                                   "purchasable":  true,
+                                   "total":  1100,
+                                   "sell":  770
+                               }
+                  },
+                  {
+                      "id":  "3009",
+                      "name":  "Stivali della rapiditÃ ",
+                      "plaintext":  "Potenzia la velocitÃ  di movimento e riduce gli effetti dei rallentamenti.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003ePiÃ¨ veloce\u003c/passive\u003e\u003cbr\u003eRiduce gli effetti dei \u003ckeyword\u003erallentamenti\u003c/keyword\u003e di un 25%.\u003c/mainText\u003e",
+                      "icon":  "3009.png",
+                      "tags":  [
+                                   "Boots"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  700,
+                                   "purchasable":  true,
+                                   "total":  1000,
+                                   "sell":  700
+                               }
+                  },
+                  {
+                      "id":  "3020",
+                      "name":  "Calzari del mago",
+                      "plaintext":  "Potenzia velocitÃ  di movimento e penetrazione magica.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e12\u003c/attention\u003e penetrazione magica\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "3020.png",
+                      "tags":  [
+                                   "Boots",
+                                   "MagicPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  1100,
+                                   "sell":  770
+                               }
+                  },
+                  {
+                      "id":  "3026",
+                      "name":  "Angelo custode",
+                      "plaintext":  "Rianima periodicamente il tuo campione alla morte.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e armatura\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eRinascita\u003c/passive\u003e\u003cbr\u003eDopo aver subito danni letali, ripristina \u003chealing\u003e50% salute base\u003c/healing\u003e e \u003cscaleMana\u003e100% mana massimo\u003c/scaleMana\u003e dopo 4 secondi di \u003ckeyword\u003eStasi\u003c/keyword\u003e.\u003c/mainText\u003e",
+                      "icon":  "3026.png",
+                      "tags":  [
+                                   "Armor",
+                                   "Damage"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  3200,
+                                   "sell":  1280
+                               }
+                  },
+                  {
+                      "id":  "3031",
+                      "name":  "Frammento d\u0027infinito",
+                      "plaintext":  "Aumenta notevolmente i colpi critici.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e75\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003cbr\u003e\u003cattention\u003e30%\u003c/attention\u003e danni critici\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "3031.png",
+                      "tags":  [
+                                   "CriticalStrike",
+                                   "Damage"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  725,
+                                   "purchasable":  true,
+                                   "total":  3500,
+                                   "sell":  2450
+                               }
+                  },
+                  {
+                      "id":  "3032",
+                      "name":  "Frecce Yun Tal",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e50\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e40%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e0%\u003c/attention\u003e probabilitÃ  colpo critico\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLa pratica rende letali\u003c/passive\u003e\u003cbr\u003eSull\u0027attacco, ottieni permanentemente probabilitÃ  di colpo critico, fino a un 25%.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eMillemani\u003c/passive\u003e\u003cbr\u003eAttaccando un campione nemico, ottieni 30% velocitÃ  d\u0027attacco per 6 secondi (30 secondo/i di ricarica). \u003cbr\u003eGli attacchi riducono il tempo di ricarica di questa abilitÃ  di 1 secondo, che aumenta fino a 2 secondi per i colpi critici.\u003c/mainText\u003e",
+                      "icon":  "3032.png",
+                      "tags":  [
+                                   "Damage",
+                                   "CriticalStrike",
+                                   "AttackSpeed"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  850,
+                                   "purchasable":  true,
+                                   "total":  3100,
+                                   "sell":  2170
+                               }
+                  },
+                  {
+                      "id":  "3033",
+                      "name":  "Memento mori",
+                      "plaintext":  "Prevale sui nemici con una rigenerazione di salute aumentata e armatura extra.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e35\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e30%\u003c/attention\u003e penetrazione armatura\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFerita grave\u003c/passive\u003e\u003cbr\u003eInfliggere danni fisici applica un \u003ckeyword\u003e40% di Ferita grave\u003c/keyword\u003e ai campioni nemici per 3 secondi.\u003c/mainText\u003e",
+                      "icon":  "3033.png",
+                      "tags":  [
+                                   "Damage",
+                                   "CriticalStrike",
+                                   "ArmorPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  150,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3036",
+                      "name":  "Saluti di Lord Dominik",
+                      "plaintext":  "Prevale sui nemici con molta salute e armatura.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e35\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e35%\u003c/attention\u003e penetrazione armatura\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eUccisore di giganti\u003c/passive\u003e\u003cbr\u003eInfligge fino a un 15% di danni bonus contro i campioni in base alla loro salute bonus. Danni bonus massimi raggiunti a 1500 salute bonus.\u003c/mainText\u003e",
+                      "icon":  "3036.png",
+                      "tags":  [
+                                   "Damage",
+                                   "CriticalStrike",
+                                   "ArmorPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  550,
+                                   "purchasable":  true,
+                                   "total":  3300,
+                                   "sell":  2310
+                               }
+                  },
+                  {
+                      "id":  "3041",
+                      "name":  "Tomo Mejai ruba-anime",
+                      "plaintext":  "Conferisce potere magico per uccisioni e assist.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e20\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e100\u003c/attention\u003e salute\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eGloria\u003c/passive\u003e\u003cbr\u003e\u003ckeyword\u003eLe eliminazioni\u003c/keyword\u003e conferiscono \u003cpassive\u003eGloria\u003c/passive\u003e, fino a 25. 10 \u003cpassive\u003eGloria\u003c/passive\u003e viene persa alla morte.\u003cbr\u003eOttieni \u003cscaleAP\u003e5 potere magico\u003c/scaleAP\u003e per ogni carica di \u003cpassive\u003eGloria\u003c/passive\u003e, e \u003cspeed\u003e10% velocitÃ  di movimento\u003c/speed\u003e a 10 o piÃ¹ cariche di \u003cpassive\u003eGloria\u003c/passive\u003e.\u003c/mainText\u003e",
+                      "icon":  "3041.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellDamage",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  1150,
+                                   "purchasable":  true,
+                                   "total":  1500,
+                                   "sell":  1050
+                               }
+                  },
+                  {
+                      "id":  "3046",
+                      "name":  "Danzatore fantasma",
+                      "plaintext":  "Ti muovi piÃ¹ velocemente quando attacchi i nemici e ottieni uno scudo quando hai poca salute.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e65%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003cbr\u003e\u003cattention\u003e10%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eValzer spettrale\u003c/passive\u003e\u003cbr\u003eDiventa \u003ckeyword\u003espettrale\u003c/keyword\u003e.\u003c/mainText\u003e",
+                      "icon":  "3046.png",
+                      "tags":  [
+                                   "CriticalStrike",
+                                   "AttackSpeed",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  950,
+                                   "purchasable":  true,
+                                   "total":  2650,
+                                   "sell":  1855
+                               }
+                  },
+                  {
+                      "id":  "3047",
+                      "name":  "Piastre d\u0027acciaio",
+                      "plaintext":  "Aumenta la velocitÃ  di movimento e riduce l\u0027attacco fisico base.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e25\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eCorazza\u003c/passive\u003e\u003cbr\u003eRiduce di un 10% i danni subiti dagli attacchi base.\u003c/mainText\u003e",
+                      "icon":  "3047.png",
+                      "tags":  [
+                                   "Armor",
+                                   "Boots"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  600,
+                                   "purchasable":  true,
+                                   "total":  1200,
+                                   "sell":  840
+                               }
+                  },
+                  {
+                      "id":  "3050",
+                      "name":  "Convergenza di Zeke",
+                      "plaintext":  "Conferisce a te e ai tuoi alleati un bonus quando lanciate la suprema.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e300\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e25\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e25\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eTempesta di ghiaccio ardente\u003c/passive\u003e\u003cbr\u003eIl lancio della tua suprema evoca una tempesta che ti circonda per 5 secondi. La tempesta infligge \u003cmagicDamage\u003e30 danni magici\u003c/magicDamage\u003e al secondo ai campioni nemici e li \u003ckeyword\u003erallenta\u003c/keyword\u003e di un 30%.\u003c/mainText\u003e",
+                      "icon":  "3050.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellBlock",
+                                   "Armor",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  700,
+                                   "purchasable":  true,
+                                   "total":  2200,
+                                   "sell":  1540
+                               }
+                  },
+                  {
+                      "id":  "3053",
+                      "name":  "Pegno di Sterak",
+                      "plaintext":  "Ripara contro le grandi raffiche di danni.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e400\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e20%\u003c/attention\u003e Tenacia\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eGli artigli che afferrano\u003c/passive\u003e\u003cbr\u003eOttieni \u003cscaleAD\u003eattacco fisico bonus\u003c/scaleAD\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLinea vitale\u003c/passive\u003e\u003cbr\u003eQuando subisci danni che ridurrebbero la tua salute a meno di un 30% ottieni uno \u003cshield\u003escudo decrescente\u003c/shield\u003e per 4.5 secondi.\u003c/mainText\u003e",
+                      "icon":  "3053.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage",
+                                   "Tenacity"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  775,
+                                   "purchasable":  true,
+                                   "total":  3200,
+                                   "sell":  2240
+                               }
+                  },
+                  {
+                      "id":  "3065",
+                      "name":  "Corazza spirituale",
+                      "plaintext":  "Aumenta la salute e l\u0027efficacia degli effetti curativi.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e400\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e50\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e100%\u003c/attention\u003e rigenerazione salute base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eVitalitÃ  infinita\u003c/passive\u003e\u003cbr\u003eL\u0027efficacia di cure e scudi da te ricevuti aumenta di un 25%.\u003c/mainText\u003e",
+                      "icon":  "3065.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellBlock",
+                                   "HealthRegen",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  650,
+                                   "purchasable":  true,
+                                   "total":  2700,
+                                   "sell":  1890
+                               }
+                  },
+                  {
+                      "id":  "3068",
+                      "name":  "Egida del Sole",
+                      "plaintext":  "Armatura elevata. Infligge danni costanti ai nemici nelle vicinanze. Immobilizza i nemici per scatenare un\u0027onda di fiamme che infliggono danni.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e350\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e50\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eImmolazione\u003c/passive\u003e\u003cbr\u003eDopo aver inflitto o subito danni, infliggi \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e al secondo ai nemici vicini per 3 secondi. \u003c/mainText\u003e",
+                      "icon":  "3068.png",
+                      "tags":  [
+                                   "Health",
+                                   "Armor",
+                                   "Aura",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  1000,
+                                   "purchasable":  true,
+                                   "total":  2700,
+                                   "sell":  1890
+                               }
+                  },
+                  {
+                      "id":  "3071",
+                      "name":  "Mannaia oscura",
+                      "plaintext":  "Infliggere danni fisici ai campioni nemici ne riduce l\u0027armatura.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e40\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e400\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSradicamento\u003c/passive\u003e\u003cbr\u003eInfliggere \u003cphysicalDamage\u003edanni fisici\u003c/physicalDamage\u003e ai campioni ne riduce l\u0027\u003cscaleArmor\u003earmatura di un 6%\u003c/scaleArmor\u003e per 6 secondi (si accumula 5 volte).\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFrenesia\u003c/passive\u003e\u003cbr\u003eInfliggere \u003cphysicalDamage\u003edanni fisici\u003c/physicalDamage\u003e conferisce \u003cspeed\u003e20 velocitÃ  di movimento\u003c/speed\u003e per 2 secondi.\u003c/mainText\u003e",
+                      "icon":  "3071.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage",
+                                   "CooldownReduction",
+                                   "OnHit",
+                                   "NonbootsMovement",
+                                   "ArmorPenetration",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  225,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3072",
+                      "name":  "Bramasangue",
+                      "plaintext":  "Conferisce attacco fisico, rubavita e ora rubavita fa recuperare piÃ¹ salute di quella massima.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e80\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e15%\u003c/attention\u003e Rubavita\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eScudo di icore\u003c/passive\u003e\u003cbr\u003eTrasforma la guarigione in eccesso ricevuta dal rubavita in uno \u003cshield\u003escudo\u003c/shield\u003e.\u003c/mainText\u003e",
+                      "icon":  "3072.png",
+                      "tags":  [
+                                   "Damage",
+                                   "LifeSteal"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  325,
+                                   "purchasable":  true,
+                                   "total":  3400,
+                                   "sell":  2380
+                               }
+                  },
+                  {
+                      "id":  "3073",
+                      "name":  "Hexcorazza sperimentale",
+                      "plaintext":  "Aumenta il mana massimo con le spese di mana",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e40\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e20%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e450\u003c/attention\u003e salute\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eHexcaricato\u003c/passive\u003e\u003cbr\u003eOttieni 30 velocitÃ  abilitÃ  suprema.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eIpervelocitÃ \u003c/passive\u003e\u003cbr\u003eDopo aver lanciato la suprema, ottieni \u003cattackSpeed\u003e50% velocitÃ  d\u0027attacco\u003c/attackSpeed\u003e e \u003cspeed\u003e20% velocitÃ  di movimento\u003c/speed\u003e per 8 secondi. \u003c/mainText\u003e",
+                      "icon":  "3073.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage",
+                                   "AttackSpeed",
+                                   "CooldownReduction",
+                                   "NonbootsMovement",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  500,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3074",
+                      "name":  "Idra famelica",
+                      "plaintext":  "Gli attacchi da mischia colpiscono i nemici nelle vicinanze, procurando danni e ripristinando salute.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e65\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e12%\u003c/attention\u003e Rubavita\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFendente\u003c/passive\u003e\u003cbr\u003eGli attacchi base infliggono \u003cphysicalDamage\u003edanni fisici\u003c/physicalDamage\u003e ai nemici vicini.\u003cactive\u003eMezzaluna famelica\u003c/active\u003e\u003cbr\u003eInfliggi \u003cphysicalDamage\u003edanni fisici\u003c/physicalDamage\u003e ai nemici intorno a te. \u003cbr\u003eIl tuo rubavita si applica a questi danni.\u003c/mainText\u003e",
+                      "icon":  "3074.png",
+                      "tags":  [
+                                   "Damage",
+                                   "LifeSteal",
+                                   "CooldownReduction",
+                                   "OnHit",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  150,
+                                   "purchasable":  true,
+                                   "total":  3300,
+                                   "sell":  2310
+                               }
+                  },
+                  {
+                      "id":  "3075",
+                      "name":  "Corazza spinata",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e150\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e75\u003c/attention\u003e armatura\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSpine\u003c/passive\u003e\u003cbr\u003eQuando vieni colpito da un attacco base, infligge \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e al nemico che ti ha attaccato e applica un 40% di \u003ckeyword\u003eFerita grave\u003c/keyword\u003e per 3 secondi se si tratta di un campione.\u003c/mainText\u003e",
+                      "icon":  "3075.png",
+                      "tags":  [
+                                   "Health",
+                                   "Armor"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  450,
+                                   "purchasable":  true,
+                                   "total":  2450,
+                                   "sell":  1715
+                               }
+                  },
+                  {
+                      "id":  "3078",
+                      "name":  "VirtÃ¹ della Triade",
+                      "plaintext":  "Tanti danni.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e36\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e30%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e333\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLama incantata\u003c/passive\u003e\u003cbr\u003eDopo aver usato un\u0027abilitÃ , il tuo prossimo attacco infligge \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e.\u003cbr\u003e \u003cbr\u003e\u003cpassive\u003eAccelerazione\u003c/passive\u003e\u003cbr\u003eGli attacchi conferiscono \u003cspeed\u003e20 velocitÃ  di movimento\u003c/speed\u003e per 2 secondi.\u003c/mainText\u003e",
+                      "icon":  "3078.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage",
+                                   "AttackSpeed",
+                                   "CooldownReduction",
+                                   "OnHit",
+                                   "NonbootsMovement",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  133,
+                                   "purchasable":  true,
+                                   "total":  3333,
+                                   "sell":  2333
+                               }
+                  },
+                  {
+                      "id":  "3083",
+                      "name":  "Armatura di Warmog",
+                      "plaintext":  "Conferisce moltissima salute e rigenerazione della salute.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e1000\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e100%\u003c/attention\u003e rigenerazione salute base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eCuore di Warmog\u003c/passive\u003e \u003cbr\u003eSe hai 2000 di salute bonus e non subisci danni per 8 secondi, ripristini \u003chealing\u003e0\u003c/healing\u003e salute al secondo.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eVitalitÃ  di Warmog\u003c/passive\u003e\u003cbr\u003eOttieni salute bonus pari a un 12% della salute dei tuoi oggetti (\u003chealing\u003e0\u003c/healing\u003e).\u003c/mainText\u003e",
+                      "icon":  "3083.png",
+                      "tags":  [
+                                   "Health",
+                                   "HealthRegen"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  500,
+                                   "purchasable":  true,
+                                   "total":  3100,
+                                   "sell":  2170
+                               }
+                  },
+                  {
+                      "id":  "3084",
+                      "name":  "Cuore d\u0027acciaio",
+                      "plaintext":  "Ripristina la salute massima con uccisioni e assist",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e900\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e100%\u003c/attention\u003e rigenerazione salute base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eAssorbimento colossale\u003c/passive\u003e (0 secondo/i) per bersaglio\u003cbr\u003eSe un campione nemico Ã¨ nelle vicinanze per alcuni secondi, il tuo prossimo attacco contro di lui infligge \u003cphysicalDamage\u003e70 piÃ¹ un 6%\u003c/physicalDamage\u003e della tua salute massima in \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e e conferisce un \u003cscaleHealth\u003e8%\u003c/scaleHealth\u003e di quei danni come \u003cscaleHealth\u003esalute massima.\u003c/scaleHealth\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eGigante\u003c/passive\u003e\u003cbr\u003ePer ogni \u003cscaleHealth\u003e1000 di salute massima\u003c/scaleHealth\u003e, ottieni un 3% di aumento di dimensioni, fino a un 30%. \u003c/mainText\u003e",
+                      "icon":  "3084.png",
+                      "tags":  [
+                                   "Health",
+                                   "HealthRegen"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  400,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3085",
+                      "name":  "Uragano di Runaan",
+                      "plaintext":  "Gli attacchi a distanza sparano due dardi ai nemici nelle vicinanze.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e40%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFuria del vento\u003c/passive\u003e\u003cbr\u003eGli attacchi base sparano dardi a 2 nemici aggiuntivi vicini al bersaglio.\u003cbr\u003eOgni dardo infligge \u003cphysicalDamage\u003edanni fisici\u003c/physicalDamage\u003e e applica effetti \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e.\u003c/mainText\u003e",
+                      "icon":  "3085.png",
+                      "tags":  [
+                                   "CriticalStrike",
+                                   "AttackSpeed",
+                                   "OnHit",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  850,
+                                   "purchasable":  true,
+                                   "total":  2650,
+                                   "sell":  1855
+                               }
+                  },
+                  {
+                      "id":  "3087",
+                      "name":  "Pugnale di Statikk",
+                      "plaintext":  "Il movimento accumula cariche che rilasciano fulmini a catena con gli attacchi base.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e45\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e30%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eScintilla elettrica\u003c/passive\u003e\u003cbr\u003eI tuoi attacchi generano un fulmine a catena \u003cOnHit\u003esul colpo\u003c/OnHit\u003e che infligge \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e con una ricarica.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eElettroshock\u003c/passive\u003e \u003cbr\u003eUccidere un bersaglio entro 3 secondi dopo averlo ferito azzera la ricarica di Scintilla elettrica.\u003c/mainText\u003e",
+                      "icon":  "3087.png",
+                      "tags":  [
+                                   "Damage",
+                                   "AttackSpeed",
+                                   "OnHit",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  450,
+                                   "purchasable":  true,
+                                   "total":  2700,
+                                   "sell":  1890
+                               }
+                  },
+                  {
+                      "id":  "3089",
+                      "name":  "Copricapo di Rabadon",
+                      "plaintext":  "Aumenta notevolmente il potere magico.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e130\u003c/attention\u003e potere magico\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eOpera magica\u003c/passive\u003e\u003cbr\u003eAumenta il tuo \u003cscaleAP\u003epotere magico totale di un 30%\u003c/scaleAP\u003e.\u003c/mainText\u003e",
+                      "icon":  "3089.png",
+                      "tags":  [
+                                   "SpellDamage"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  1100,
+                                   "purchasable":  true,
+                                   "total":  3500,
+                                   "sell":  2450
+                               }
+                  },
+                  {
+                      "id":  "3091",
+                      "name":  "Speranza perduta",
+                      "plaintext":  "Resisti ai danni magici e recuperi salute.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e50%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e20%\u003c/attention\u003e Tenacia\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eZuffa\u003c/passive\u003e\u003cbr\u003eGli attacchi infliggono \u003cmagicDamage\u003edanni magici bonus\u003c/magicDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e.\u003c/mainText\u003e",
+                      "icon":  "3091.png",
+                      "tags":  [
+                                   "SpellBlock",
+                                   "AttackSpeed",
+                                   "OnHit",
+                                   "Tenacity"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  550,
+                                   "purchasable":  true,
+                                   "total":  2800,
+                                   "sell":  1960
+                               }
+                  },
+                  {
+                      "id":  "3094",
+                      "name":  "Archibugio a ripetizione",
+                      "plaintext":  "Il movimento accumula cariche che rilasciano un attacco di fuoco d\u0027assedio al rilascio.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e35%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eTiratore\u003c/passive\u003e\u003cbr\u003eI tuoi \u003ckeyword\u003eattacchi energizzati\u003c/keyword\u003e infliggono \u003cmagicDamage\u003e40 danni magici bonus\u003c/magicDamage\u003e e ottengono un 35% di gittata d\u0027attacco bonus.\u003c/mainText\u003e",
+                      "icon":  "3094.png",
+                      "tags":  [
+                                   "CriticalStrike",
+                                   "AttackSpeed",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  850,
+                                   "purchasable":  true,
+                                   "total":  2650,
+                                   "sell":  1855
+                               }
+                  },
+                  {
+                      "id":  "3097",
+                      "name":  "Rasoio della tempesta",
+                      "plaintext":  "Uccide periodicamente i minion nemici per curare un alleato vicino e conferirgli oro.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e50\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e20%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eEnergizzato\u003c/passive\u003e\u003cbr\u003eMuoversi e attaccare genera un \u003ckeyword\u003eattacco Energizzato\u003c/keyword\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eDardo\u003c/passive\u003e\u003cbr\u003eI tuoi \u003ckeyword\u003eattacchi energizzati\u003c/keyword\u003e infliggono \u003cmagicDamage\u003e0 danni magici bonus\u003c/magicDamage\u003e e conferiscono \u003cspeed\u003e45% velocitÃ  di movimento\u003c/speed\u003e per 1.5 secondo/i.\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "3097.png",
+                      "tags":  [
+                                   "Damage",
+                                   "CriticalStrike",
+                                   "AttackSpeed",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  700,
+                                   "purchasable":  true,
+                                   "total":  3200,
+                                   "sell":  2240
+                               }
+                  },
+                  {
+                      "id":  "3100",
+                      "name":  "Terrore dei lich",
+                      "plaintext":  "Conferisce un bonus al prossimo attacco dopo il lancio.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e100\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLama incantata\u003c/passive\u003e\u003cbr\u003eDopo aver usato un\u0027abilitÃ , il tuo prossimo attacco infligge \u003cmagicDamage\u003edanni magici bonus\u003c/magicDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e.\u003c/mainText\u003e",
+                      "icon":  "3100.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "OnHit",
+                                   "NonbootsMovement",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  250,
+                                   "purchasable":  true,
+                                   "total":  2900,
+                                   "sell":  2030
+                               }
+                  },
+                  {
+                      "id":  "3102",
+                      "name":  "Velo della Banshee",
+                      "plaintext":  "Blocca periodicamente le abilitÃ  nemiche.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e105\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e40\u003c/attention\u003e resistenza magica\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eAnnullamento\u003c/passive\u003e\u003cbr\u003eConferisce uno Scudo incantato che blocca la prossima abilitÃ  nemica.\u003c/mainText\u003e",
+                      "icon":  "3102.png",
+                      "tags":  [
+                                   "SpellBlock",
+                                   "SpellDamage"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  200,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3107",
+                      "name":  "Redenzione",
+                      "plaintext":  "Attiva per curare gli alleati e danneggiare i nemici in un\u0027area.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e30\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e100%\u003c/attention\u003e rigenerazione mana base\u003cbr\u003e\u003cattention\u003e10%\u003c/attention\u003e guarigione e potere scudo\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cactive\u003eIntervento angelico\u003c/active\u003e\u003cbr\u003eDopo 2,5 secondi, ripristini \u003chealing\u003e150-350 salute\u003c/healing\u003e alle unitÃ  alleate e infliggi un \u003ctrueDamage\u003e10% della salute massima in danni puri\u003c/trueDamage\u003e ai campioni nemici.\u003c/mainText\u003e",
+                      "icon":  "3107.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "ManaRegen",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  850,
+                                   "purchasable":  true,
+                                   "total":  2300,
+                                   "sell":  1610
+                               }
+                  },
+                  {
+                      "id":  "3109",
+                      "name":  "Voto del cavaliere",
+                      "plaintext":  "Scegli un alleato come compagno per proteggerlo ed essere protetto.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e200\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e40\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e100%\u003c/attention\u003e rigenerazione salute base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSacrificio\u003c/passive\u003e\u003cbr\u003eMentre sei vicino al tuo alleato \u003cattention\u003eDegno\u003c/attention\u003e, subisci un 12% dei danni che riceve e ti \u003chealing\u003ecuri di un 10%\u003c/healing\u003e dei danni che lui infligge ai campioni.\u003cactive\u003eGiuramento\u003c/active\u003e (0 secondo/i)\u003cbr\u003eDesigna un alleato come \u003cattention\u003eDegno\u003c/attention\u003e.\u003c/mainText\u003e",
+                      "icon":  "3109.png",
+                      "tags":  [
+                                   "Health",
+                                   "HealthRegen",
+                                   "Armor",
+                                   "Aura",
+                                   "Active",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  400,
+                                   "purchasable":  true,
+                                   "total":  2300,
+                                   "sell":  1610
+                               }
+                  },
+                  {
+                      "id":  "3110",
+                      "name":  "Fulcro dei geli",
+                      "plaintext":  "Fornisce ingente armatura e rallenta gli attacchi base dei nemici.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e75\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e400\u003c/attention\u003e mana\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eCarezza glaciale\u003c/passive\u003e\u003cbr\u003eRiduce la \u003cattackSpeed\u003evelocitÃ  d\u0027attacco\u003c/attackSpeed\u003e dei campioni nelle vicinanze di un \u003cattackSpeed\u003e20%\u003c/attackSpeed\u003e.\u003c/mainText\u003e",
+                      "icon":  "3110.png",
+                      "tags":  [
+                                   "Armor",
+                                   "Mana",
+                                   "Aura",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  600,
+                                   "purchasable":  true,
+                                   "total":  2500,
+                                   "sell":  1750
+                               }
+                  },
+                  {
+                      "id":  "3111",
+                      "name":  "Calzari di Mercurio",
+                      "plaintext":  "Potenzia la velocitÃ  di movimento e riduce la durata dei controlli.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e20\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e velocitÃ  di movimento\u003cbr\u003e\u003cattention\u003e30%\u003c/attention\u003e Tenacia\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "3111.png",
+                      "tags":  [
+                                   "Boots",
+                                   "SpellBlock",
+                                   "Tenacity"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  550,
+                                   "purchasable":  true,
+                                   "total":  1250,
+                                   "sell":  875
+                               }
+                  },
+                  {
+                      "id":  "3115",
+                      "name":  "Dente di Nashor",
+                      "plaintext":  "Conferisce velocitÃ  d\u0027attacco, potere magico, e riduzione ricarica.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e80\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e50%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eMorso di Icathia\u003c/passive\u003e\u003cbr\u003eGli attacchi base infliggono \u003cmagicDamage\u003edanni magici bonus\u003c/magicDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e.\u003c/mainText\u003e",
+                      "icon":  "3115.png",
+                      "tags":  [
+                                   "AttackSpeed",
+                                   "SpellDamage",
+                                   "OnHit",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  500,
+                                   "purchasable":  true,
+                                   "total":  2900,
+                                   "sell":  2030
+                               }
+                  },
+                  {
+                      "id":  "3116",
+                      "name":  "Scettro di cristallo di Rylai",
+                      "plaintext":  "Le abilitÃ  rallentano i nemici.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e65\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e400\u003c/attention\u003e salute\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eBrina gelida\u003c/passive\u003e\u003cbr\u003eLe tue abilitÃ  che infliggono danni \u003ckeyword\u003erallentano\u003c/keyword\u003e i nemici di un 30% per 1 secondo.\u003c/mainText\u003e",
+                      "icon":  "3116.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellDamage",
+                                   "Slow"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  450,
+                                   "purchasable":  true,
+                                   "total":  2600,
+                                   "sell":  1820
+                               }
+                  },
+                  {
+                      "id":  "3118",
+                      "name":  "MalignitÃ ",
+                      "plaintext":  "Scegli un alleato come compagno per proteggerlo ed essere protetto",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e90\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e600\u003c/attention\u003e mana\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eDisprezzo\u003c/passive\u003e\u003cbr\u003eOttieni 20 velocitÃ  abilitÃ  suprema.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eNebbia avversa\u003c/passive\u003e\u003cbr\u003eDanneggiare un campione con la tua suprema brucia il terreno sotto ai suoi piedi per 3 secondo/i, infliggendo \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e al secondo e riducendo la sua \u003cscaleMR\u003eresistenza magica\u003c/scaleMR\u003e. \u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "3118.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "Mana",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  650,
+                                   "purchasable":  true,
+                                   "total":  2700,
+                                   "sell":  1890
+                               }
+                  },
+                  {
+                      "id":  "3119",
+                      "name":  "Avvento dell\u0027Inverno",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e550\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e500\u003c/attention\u003e mana\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eAmmirazione\u003c/passive\u003e\u003cbr\u003eOttieni \u003cscaleHealth\u003e0 salute\u003c/scaleHealth\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFlusso di mana\u003c/passive\u003e (8 secondo/i, massimo 4 cariche)\u003cbr\u003eColpire con le abilitÃ  e gli attacchi base conferisce \u003cscaleMana\u003e3 mana massimo\u003c/scaleMana\u003e (raddoppiato contro i campioni).\u003cbr\u003eA \u003cscaleMana\u003e360 mana massimo\u003c/scaleMana\u003e, si trasforma in \u003crarityLegendary\u003eFimbulvinter\u003c/rarityLegendary\u003e.\u003c/mainText\u003e",
+                      "icon":  "3119.png",
+                      "tags":  [
+                                   "Health",
+                                   "Mana",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  true,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  300,
+                                   "purchasable":  true,
+                                   "total":  2400,
+                                   "sell":  1680
+                               }
+                  },
+                  {
+                      "id":  "3124",
+                      "name":  "Furia di Guinsoo",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e30\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e30\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eIra\u003c/passive\u003e\u003cbr\u003eGli attacchi infliggono \u003cmagicDamage\u003e30 danni magici bonus \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e\u003c/magicDamage\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eColpo irrequieto\u003c/passive\u003e\u003cbr\u003eGli attacchi conferiscono \u003cattackSpeed\u003e8% velocitÃ  d\u0027attacco\u003c/attackSpeed\u003e per 3 secondi (si accumula 4 volte). \u003cbr\u003eAl massimo delle cariche, ogni terzo attacco applica per due volte gli effetti \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e.\u003c/mainText\u003e",
+                      "icon":  "3124.png",
+                      "tags":  [
+                                   "Damage",
+                                   "AttackSpeed",
+                                   "SpellDamage",
+                                   "OnHit"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  1025,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3135",
+                      "name":  "Bastone del Vuoto",
+                      "plaintext":  "Aumenta il danno magico.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e95\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e40%\u003c/attention\u003e penetrazione magica\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "3135.png",
+                      "tags":  [
+                                   "MagicPenetration",
+                                   "SpellDamage"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  1050,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3137",
+                      "name":  "Bocciolo della cripta",
+                      "plaintext":  "Attiva per rimuovere i debuff e conferire ingente velocitÃ  di movimento",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e75\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e30%\u003c/attention\u003e penetrazione magica\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eDalla morte la vita\u003c/passive\u003e\u003cbr\u003eQuando un campione che hai danneggiato negli ultimi 3 secondi muore, dal cadavere si diffonde un\u0027esplosione che \u003chealing\u003ecura\u003c/healing\u003e.\u003c/mainText\u003e",
+                      "icon":  "3137.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "MagicPenetration",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  200,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3139",
+                      "name":  "Scimitarra di Mercurio",
+                      "plaintext":  "Attiva per rimuovere i debuff degli effetti di controllo e conferire ingente velocitÃ  di movimento.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e50\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e35\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e10%\u003c/attention\u003e Rubavita\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cactive\u003eATTIVA\u003c/active\u003e\u003cbr\u003e\u003cactive\u003eArgento vivo\u003c/active\u003e\u003cbr\u003eRimuove tutti i debuff degli effetti di controllo (escluso \u003ckeyword\u003elancio in aria\u003c/keyword\u003e) e conferisce velocitÃ  di movimento.\u003c/mainText\u003e",
+                      "icon":  "3139.png",
+                      "tags":  [
+                                   "SpellBlock",
+                                   "Damage",
+                                   "LifeSteal",
+                                   "Active",
+                                   "NonbootsMovement",
+                                   "Tenacity"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  125,
+                                   "purchasable":  true,
+                                   "total":  3200,
+                                   "sell":  2240
+                               }
+                  },
+                  {
+                      "id":  "3142",
+                      "name":  "Lama di Youmuu",
+                      "plaintext":  "Attiva per aumentare notevolmente la velocitÃ  di movimento.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 18\u003c/attention\u003e LetalitÃ \u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003ePersecuzione\u003c/passive\u003e \u003cbr\u003eOttieni \u003cspeed\u003e0 velocitÃ  di movimento\u003c/speed\u003e fuori dai combattimenti.\u003cbr\u003e\u003cbr\u003e\u003cactive\u003ePasso spettrale\u003c/active\u003e\u003cbr\u003eOttieni \u003cspeed\u003evelocitÃ  di movimento\u003c/speed\u003e e \u003ckeyword\u003eSpettralitÃ \u003c/keyword\u003e per 0 secondi.\u003c/mainText\u003e",
+                      "icon":  "3142.png",
+                      "tags":  [
+                                   "Damage",
+                                   "Active",
+                                   "NonbootsMovement",
+                                   "ArmorPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  675,
+                                   "purchasable":  true,
+                                   "total":  2800,
+                                   "sell":  1960
+                               }
+                  },
+                  {
+                      "id":  "3143",
+                      "name":  "Orgoglio di Randuin",
+                      "plaintext":  "Aumenta notevolmente le difese, da attivare per rallentare i nemici nelle vicinanze.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e350\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e75\u003c/attention\u003e armatura\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eResistenza\u003c/passive\u003e\u003cbr\u003eRicevi un 30% di danni in meno dai colpi critici.\u003cbr\u003e\u003cactive\u003eUmiltÃ \u003c/active\u003e\u003cbr\u003e\u003ckeyword\u003eRallenti\u003c/keyword\u003e i nemici nelle vicinanze di un 70% per 2 secondi.\u003c/mainText\u003e",
+                      "icon":  "3143.png",
+                      "tags":  [
+                                   "Health",
+                                   "Armor",
+                                   "Active",
+                                   "Slow"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  2700,
+                                   "sell":  1890
+                               }
+                  },
+                  {
+                      "id":  "3146",
+                      "name":  "Pistola a lame hextech",
+                      "plaintext":  "Conferisce attacco fisico e potere magico, da attivare per rallentare il bersaglio.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e80\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e40\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e10%\u003c/attention\u003e rubavita globale\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cactive\u003eATTIVA\u003c/active\u003e (0 secondo/i)\u003cbr\u003e\u003cactive\u003eFulmine folgorante\u003c/active\u003e\u003cbr\u003eColpisce il bersaglio campione nemico, infliggendo 0 danni magici e rallentandolo di un 25% per 1.5 secondi.\u003c/mainText\u003e",
+                      "icon":  "3146.png",
+                      "tags":  [
+                                   "Damage",
+                                   "LifeSteal",
+                                   "SpellDamage",
+                                   "Active",
+                                   "SpellVamp"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  600,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3152",
+                      "name":  "Cintura a razzo Hextech",
+                      "plaintext":  "Attiva per scattare in avanti e scatenare un\u0027esplosione di fuoco.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e70\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e300\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cactive\u003eSupersonico\u003c/active\u003e\u003cbr\u003eScatti nella direzione bersaglio, scagliando dei dardi che infliggono \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e.\u003c/mainText\u003e",
+                      "icon":  "3152.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellDamage",
+                                   "Active",
+                                   "CooldownReduction",
+                                   "NonbootsMovement",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  300,
+                                   "purchasable":  true,
+                                   "total":  2650,
+                                   "sell":  1855
+                               }
+                  },
+                  {
+                      "id":  "3153",
+                      "name":  "Lama del re in rovina",
+                      "plaintext":  "Infligge danni in base alla salute del bersaglio e puÃ² rubare velocitÃ  di movimento.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e40\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e10%\u003c/attention\u003e Rubavita\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLama della nebbia\u003c/passive\u003e\u003cbr\u003eGli attacchi infliggono \u003cphysicalDamage\u003euna percentuale\u003c/physicalDamage\u003e della salute attuale del bersaglio come \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eArtigli d\u0027ombra\u003c/passive\u003e\u003cbr\u003eAttaccare un campione 3 volte lo \u003cstatus\u003erallenta\u003c/status\u003e di un 30% per 1 secondo/i.\u003c/mainText\u003e",
+                      "icon":  "3153.png",
+                      "tags":  [
+                                   "Damage",
+                                   "AttackSpeed",
+                                   "LifeSteal",
+                                   "Slow",
+                                   "OnHit"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  725,
+                                   "purchasable":  true,
+                                   "total":  3200,
+                                   "sell":  2240
+                               }
+                  },
+                  {
+                      "id":  "3156",
+                      "name":  "Fauci di Malmortius",
+                      "plaintext":  "Conferisce un bonus all\u0027attacco fisico quando si ha poca salute.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e60\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e40\u003c/attention\u003e resistenza magica\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLinea vitale\u003c/passive\u003e\u003cbr\u003eQuando subisci danni magici che porterebbero la tua salute sotto un 30%, conferisce uno \u003cshield\u003escudo da danni magici\u003c/shield\u003e per 3 secondi e \u003clifeSteal\u003e10% rubavita globale\u003c/lifeSteal\u003e fino alla fine del combattimento.\u003c/mainText\u003e",
+                      "icon":  "3156.png",
+                      "tags":  [
+                                   "SpellBlock",
+                                   "Damage",
+                                   "LifeSteal",
+                                   "SpellVamp",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  750,
+                                   "purchasable":  true,
+                                   "total":  3100,
+                                   "sell":  2170
+                               }
+                  },
+                  {
+                      "id":  "3157",
+                      "name":  "Clessidra di Zhonya",
+                      "plaintext":  "Attiva per diventare invincibile ma incapace di agire.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e105\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e50\u003c/attention\u003e armatura\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cbr\u003e\u003cactive\u003eStop al tempo\u003c/active\u003e\u003cbr\u003eEntri in \u003ckeyword\u003eStasi\u003c/keyword\u003e per 2.5 secondi.\u003c/mainText\u003e",
+                      "icon":  "3157.png",
+                      "tags":  [
+                                   "Armor",
+                                   "SpellDamage",
+                                   "Active"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  450,
+                                   "purchasable":  true,
+                                   "total":  3250,
+                                   "sell":  2275
+                               }
+                  },
+                  {
+                      "id":  "3158",
+                      "name":  "Stivali dell\u0027acume di Ionia",
+                      "plaintext":  "Aumenta la velocitÃ  di movimento e la riduzione ricarica.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eIntuito ioniano\u003c/passive\u003e\u003cbr\u003eOttieni 10 velocitÃ  incantesimi dell\u0027evocatore.\u003cbr\u003e\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "3158.png",
+                      "tags":  [
+                                   "Boots",
+                                   "CooldownReduction"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  350,
+                                   "purchasable":  true,
+                                   "total":  900,
+                                   "sell":  630
+                               }
+                  },
+                  {
+                      "id":  "3161",
+                      "name":  "Lancia di Shojin",
+                      "plaintext":  "Riduci una quantitÃ  fissa di danni subiti dai campioni. Attacca quando sei vicino ai campioni nemici per aumentare questa quantitÃ  per un breve periodo.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e45\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e450\u003c/attention\u003e salute\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eForza del drago\u003c/passive\u003e \u003cbr\u003eOttieni 25 velocitÃ  abilitÃ  di base.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eVolontÃ  di ferro\u003c/passive\u003e \u003cbr\u003eInfliggere danni con le abilitÃ  aumenta i danni dalle abilitÃ  e i danni passivi del tuo campione di un 3% per 6 secondi (si accumula 4 volte).\u003c/mainText\u003e",
+                      "icon":  "3161.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  675,
+                                   "purchasable":  true,
+                                   "total":  3100,
+                                   "sell":  2170
+                               }
+                  },
+                  {
+                      "id":  "3165",
+                      "name":  "Morellonomicon",
+                      "plaintext":  "Aumenta i danni magici.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e75\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e350\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFerita grave\u003c/passive\u003e\u003cbr\u003eInfliggere \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e ai campioni applica loro un \u003ckeyword\u003e40% di Ferita grave\u003c/keyword\u003e per 3 secondi.\u003c/mainText\u003e",
+                      "icon":  "3165.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellDamage",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  400,
+                                   "purchasable":  true,
+                                   "total":  2850,
+                                   "sell":  1995
+                               }
+                  },
+                  {
+                      "id":  "3170",
+                      "name":  "Marcia rapida",
+                      "plaintext":  "Migliora la difesa e riduce la durata degli impedimenti",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e65\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003ePiÃ¨ veloce\u003c/passive\u003e\u003cbr\u003eRiduce gli effetti dei \u003ckeyword\u003erallentamenti\u003c/keyword\u003e di un 40%.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFervore noxiano\u003c/passive\u003e\u003cbr\u003eOttieni 5% della tua \u003cspeed\u003evelocitÃ  di movimento totale\u003c/speed\u003e come forza adattiva.\u003c/mainText\u003e",
+                      "icon":  "3170.png",
+                      "tags":  [
+                                   "Boots"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  true,
+                      "gold":  {
+                                   "base":  0,
+                                   "purchasable":  true,
+                                   "total":  1000,
+                                   "sell":  700
+                               }
+                  },
+                  {
+                      "id":  "3171",
+                      "name":  "LuciditÃ  cremisi",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eIntuito ioniano\u003c/passive\u003e\u003cbr\u003eOttieni 20 velocitÃ  Incantesimi dell\u0027evocatore.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eVelocitÃ  noxiana\u003c/passive\u003e\u003cbr\u003ePotenziare o proteggere gli alleati con le abilitÃ , infliggere danni ai campioni nemici con le abilitÃ  o lanciare un Incantesimo dell\u0027evocatore conferisce \u003cspeed\u003e0 velocitÃ  di movimento\u003c/speed\u003e per 4 secondi.\u003cbr\u003e\u003cbr\u003e\u003crules\u003eVelocitÃ  noxiana si attiva solo una volta per lancio dell\u0027abilitÃ .\u003c/rules\u003e\u003c/mainText\u003e",
+                      "icon":  "3171.png",
+                      "tags":  [
+                                   "CooldownReduction",
+                                   "Boots"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  true,
+                      "gold":  {
+                                   "base":  0,
+                                   "purchasable":  true,
+                                   "total":  900,
+                                   "sell":  630
+                               }
+                  },
+                  {
+                      "id":  "3172",
+                      "name":  "Gambali di metallo",
+                      "plaintext":  "MobilitÃ  e tenacia",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e40%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e velocitÃ  di movimento\u003cbr\u003e\u003cattention\u003e5%\u003c/attention\u003e Rubavita\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eMarcia noxiana\u003c/passive\u003e\u003cbr\u003eGli attacchi contro i campioni conferiscono \u003cspeed\u003evelocitÃ  di movimento\u003c/speed\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e che decresce nell\u0027arco di 2 secondi.\u003c/mainText\u003e",
+                      "icon":  "3172.png",
+                      "tags":  [
+                                   "AttackSpeed",
+                                   "LifeSteal",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  0,
+                                   "purchasable":  true,
+                                   "total":  1100,
+                                   "sell":  770
+                               }
+                  },
+                  {
+                      "id":  "3173",
+                      "name":  "Distruttori in catene",
+                      "plaintext":  "Aumenta la velocitÃ  di movimento e la riduzione ricarica",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e30\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e velocitÃ  di movimento\u003cbr\u003e\u003cattention\u003e30%\u003c/attention\u003e Tenacia\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eTenacia noxiana\u003c/passive\u003e (0 secondo/i)\u003cbr\u003eDopo aver subito danni magici da un campione, ottieni uno \u003cshield\u003escudo\u003c/shield\u003e \u003cmagicDamage\u003emagico\u003c/magicDamage\u003e da \u003cshield\u003e0\u003c/shield\u003e per 5 secondi.\u003c/mainText\u003e",
+                      "icon":  "3173.png",
+                      "tags":  [
+                                   "SpellBlock",
+                                   "Boots",
+                                   "Tenacity",
+                                   "MagicResist"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  true,
+                      "gold":  {
+                                   "base":  0,
+                                   "purchasable":  true,
+                                   "total":  1250,
+                                   "sell":  875
+                               }
+                  },
+                  {
+                      "id":  "3174",
+                      "name":  "Avanzata corazzata",
+                      "plaintext":  "Infliggi danni per potenziare le tue guarigioni e i tuoi scudi.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e35\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eCorazza\u003c/passive\u003e\u003cbr\u003eRiduce di un 10% i danni subiti dagli attacchi base.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003ePerseveranza noxiana\u003c/passive\u003e (0 secondo/i)\u003cbr\u003eDopo aver subito danni fisici da un campione, ottieni uno \u003cshield\u003escudo\u003c/shield\u003e \u003cphysicalDamage\u003efisico\u003c/physicalDamage\u003e da \u003cshield\u003e0\u003c/shield\u003e per 5 secondi.\u003c/mainText\u003e",
+                      "icon":  "3174.png",
+                      "tags":  [
+                                   "Armor",
+                                   "Boots"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  true,
+                      "gold":  {
+                                   "base":  0,
+                                   "purchasable":  true,
+                                   "total":  1200,
+                                   "sell":  840
+                               }
+                  },
+                  {
+                      "id":  "3175",
+                      "name":  "Scarpe del mago",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e18\u003c/attention\u003e penetrazione magica\u003cbr\u003e\u003cattention\u003e8%\u003c/attention\u003e penetrazione magica\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "3175.png",
+                      "tags":  [
+                                   "Boots",
+                                   "MagicPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  true,
+                      "gold":  {
+                                   "base":  0,
+                                   "purchasable":  true,
+                                   "total":  1100,
+                                   "sell":  770
+                               }
+                  },
+                  {
+                      "id":  "3179",
+                      "name":  "Ombra tagliente",
+                      "plaintext":  "Fornisce periodicamente rilevazione di trappole e lumi",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e60\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 18\u003c/attention\u003e LetalitÃ \u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eCacciatore della notte\u003c/passive\u003e\u003cbr\u003eDopo essere rimasto brevemente nascosto ai nemici, il tuo prossimo attacco contro un campione infligge ulteriori \u003ctrueDamage\u003edanni puri\u003c/trueDamage\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eBlackout\u003c/passive\u003e\u003cbr\u003eQuando sei vicino a lumi invisibili nemici e a trappole, li rivela brevemente. Quando riveli i lumi, i tuoi attacchi infliggono loro danni bonus.\u003c/mainText\u003e",
+                      "icon":  "3179.png",
+                      "tags":  [
+                                   "Damage",
+                                   "Vision",
+                                   "CooldownReduction",
+                                   "ArmorPenetration",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  750,
+                                   "purchasable":  true,
+                                   "total":  2800,
+                                   "sell":  1960
+                               }
+                  },
+                  {
+                      "id":  "3181",
+                      "name":  "Spaccascafo",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e40\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e500\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eCapitano\u003c/passive\u003e\u003cbr\u003eOgni quinto attacco contro i campioni e i mostri epici infligge \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e, che aumentano contro le strutture.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSquadra d\u0027abbordaggio\u003c/passive\u003e\u003cbr\u003eI minion d\u0027assedio e i super minion alleati nelle vicinanze ottengono \u003cscaleArmor\u003earmatura\u003c/scaleArmor\u003e e \u003cscaleMR\u003eresistenza magica\u003c/scaleMR\u003e.\u003c/mainText\u003e",
+                      "icon":  "3181.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  175,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3190",
+                      "name":  "Medaglione dei Solari di ferro",
+                      "plaintext":  "Attiva per riparare dai danni gli alleati vicini.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e200\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e25\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e25\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cactive\u003eDevozione\u003c/active\u003e\u003cbr\u003eConferisci agli alleati vicini uno \u003cshield\u003escudo da 200-360\u003c/shield\u003e che decresce nell\u0027arco di 2.5 secondi.\u003c/mainText\u003e",
+                      "icon":  "3190.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellBlock",
+                                   "Armor",
+                                   "Aura",
+                                   "Active",
+                                   "MagicResist",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  700,
+                                   "purchasable":  true,
+                                   "total":  2200,
+                                   "sell":  1540
+                               }
+                  },
+                  {
+                      "id":  "3222",
+                      "name":  "Benedizione di Mikael",
+                      "plaintext":  "Attiva per rimuovere tutti i controlli da un campione alleato.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e250\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e100%\u003c/attention\u003e rigenerazione mana base\u003cbr\u003e\u003cattention\u003e12%\u003c/attention\u003e guarigione e potere scudo\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cactive\u003ePurificazione\u003c/active\u003e\u003cbr\u003eRimuovi tutti i debuff degli effetti di controllo (eccetto \u003ckeyword\u003elancio in aria\u003c/keyword\u003e e \u003ckeyword\u003esoppressione\u003c/keyword\u003e) da un campione alleato e lo curi di \u003chealing\u003e100-250 salute\u003c/healing\u003e.\u003c/mainText\u003e",
+                      "icon":  "3222.png",
+                      "tags":  [
+                                   "Health",
+                                   "ManaRegen",
+                                   "Active",
+                                   "CooldownReduction",
+                                   "Tenacity",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  900,
+                                   "purchasable":  true,
+                                   "total":  2300,
+                                   "sell":  1610
+                               }
+                  },
+                  {
+                      "id":  "3302",
+                      "name":  "Terminus",
+                      "plaintext":  "Uccide periodicamente i minion nemici per curare un alleato vicino e conferirgli oro.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e30\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e35%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eOmbra\u003c/passive\u003e\u003cbr\u003eGli attacchi infliggono \u003cmagicDamage\u003e30 danni magici bonus\u003c/magicDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eAccostamento\u003c/passive\u003e\u003cbr\u003eAlterna tra \u003ckeywordMajor\u003eLuce\u003c/keywordMajor\u003e e \u003ckeywordMajor\u003eBuio\u003c/keywordMajor\u003e Attacchi ai campioni: \u003cli\u003eGli attacchi di \u003ckeywordMajor\u003eLuce\u003c/keywordMajor\u003e conferiscono \u003cscaleArmor\u003earmatura\u003c/scaleArmor\u003e e \u003cscaleMR\u003eresistenza magica\u003c/scaleMR\u003e per 5 secondo/i. \u003cli\u003eGli attacchi di \u003ckeywordMajor\u003eBuio\u003c/keywordMajor\u003e conferiscono un 10% di \u003cscaleArmor\u003epenetrazione armatura\u003c/scaleArmor\u003e e \u003cscaleMR\u003epenetrazione magica\u003c/scaleMR\u003e per 5 secondo/i. \u003c/mainText\u003e",
+                      "icon":  "3302.png",
+                      "tags":  [
+                                   "Damage",
+                                   "AttackSpeed",
+                                   "OnHit",
+                                   "MagicPenetration",
+                                   "ArmorPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  1100,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "3504",
+                      "name":  "Incensiere ardente",
+                      "plaintext":  "Gli scudi e gli effetti di guarigione sulle altre unitÃ  conferiscono a entrambi velocitÃ  d\u0027attacco e fanno in modo che infliggano danni magici aggiuntivi sul colpo.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e45\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e10%\u003c/attention\u003e guarigione e potere scudo\u003cbr\u003e\u003cattention\u003e125%\u003c/attention\u003e rigenerazione mana base\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSantificare\u003c/passive\u003e\u003cbr\u003eCurare o proteggere un alleato potenzia te e l\u0027alleato per 6 secondi, fornendo \u003cattackSpeed\u003e25% velocitÃ  d\u0027attacco\u003c/attackSpeed\u003e e \u003cmagicDamage\u003e20 danni magici\u003c/magicDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e.\u003c/mainText\u003e",
+                      "icon":  "3504.png",
+                      "tags":  [
+                                   "AttackSpeed",
+                                   "SpellDamage",
+                                   "ManaRegen",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  700,
+                                   "purchasable":  true,
+                                   "total":  2200,
+                                   "sell":  1540
+                               }
+                  },
+                  {
+                      "id":  "3508",
+                      "name":  "Predatore d\u0027essenza",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e50\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLama incantata\u003c/passive\u003e\u003cbr\u003eDopo aver usato un\u0027abilitÃ , il tuo prossimo attacco infligge \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e e conferisce \u003cscaleMana\u003emana\u003c/scaleMana\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e.\u003c/mainText\u003e",
+                      "icon":  "3508.png",
+                      "tags":  [
+                                   "Damage",
+                                   "CriticalStrike",
+                                   "ManaRegen",
+                                   "CooldownReduction",
+                                   "OnHit",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  500,
+                                   "purchasable":  true,
+                                   "total":  3050,
+                                   "sell":  2135
+                               }
+                  },
+                  {
+                      "id":  "3742",
+                      "name":  "Corazza dell\u0027uomo morto",
+                      "plaintext":  "Accumula Momento mentre ti muovi e travolgi i nemici.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e350\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e55\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSpaccanavi\u003c/passive\u003e\u003cbr\u003eMentre ti muovi, accumuli fino a \u003cspeed\u003e20 velocitÃ  di movimento bonus\u003c/speed\u003e. Il tuo prossimo attacco base scarica la velocitÃ  di movimento accumulata per infliggere \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eInaffondabile\u003c/passive\u003e\u003cbr\u003eRiduce l\u0027efficacia del \u003ckeyword\u003erallentamento\u003c/keyword\u003e di un 15%.\u003c/mainText\u003e",
+                      "icon":  "3742.png",
+                      "tags":  [
+                                   "Health",
+                                   "Armor",
+                                   "Slow",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  900,
+                                   "purchasable":  true,
+                                   "total":  2900,
+                                   "sell":  2030
+                               }
+                  },
+                  {
+                      "id":  "3748",
+                      "name":  "Idra titanica",
+                      "plaintext":  "Infligge danni ad area in base alla salute del proprietario.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e40\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e600\u003c/attention\u003e salute\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFendente\u003c/passive\u003e\u003cbr\u003eGli attacchi infliggono \u003cphysicalDamage\u003edanni fisici\u003c/physicalDamage\u003e sul colpo ai nemici dietro al bersaglio.\u003cbr\u003e\u003cactive\u003eMezzaluna titanica\u003c/active\u003e\u003cbr\u003ePotenzia il tuo prossimo \u003cpassive\u003eFendente\u003c/passive\u003e, che infligge \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e e \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e ai nemici dietro al bersaglio.\u003c/mainText\u003e",
+                      "icon":  "3748.png",
+                      "tags":  [
+                                   "Health",
+                                   "HealthRegen",
+                                   "Damage",
+                                   "OnHit"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  50,
+                                   "purchasable":  true,
+                                   "total":  3300,
+                                   "sell":  2310
+                               }
+                  },
+                  {
+                      "id":  "3814",
+                      "name":  "Fine della notte",
+                      "plaintext":  "Blocca periodicamente le abilitÃ  nemiche",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e50\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 15\u003c/attention\u003e LetalitÃ \u003cbr\u003e\u003cattention\u003e250\u003c/attention\u003e salute\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eAnnullamento\u003c/passive\u003e\u003cbr\u003eConferisce uno Scudo incantato che blocca la prossima abilitÃ  nemica.\u003c/mainText\u003e",
+                      "icon":  "3814.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage",
+                                   "ArmorPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  850,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "4005",
+                      "name":  "Mandato imperiale",
+                      "plaintext":  "Rinvia i danni a dopo.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e60\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e125%\u003c/attention\u003e rigenerazione mana base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFuoco coordinato\u003c/passive\u003e (0 secondo/i) per bersaglio\u003cbr\u003e\u003ckeyword\u003eRallentare\u003c/keyword\u003e o \u003ckeyword\u003eimmobilizzare\u003c/keyword\u003e un campione nemico lo marchia per 5 secondi. I danni dei campioni alleati fanno esplodere il marchio, infliggendo \u003cmagicDamage\u003edanni magici pari a un 10% della salute attuale\u003c/magicDamage\u003e. \u003c/mainText\u003e",
+                      "icon":  "4005.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "ManaRegen",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  500,
+                                   "purchasable":  true,
+                                   "total":  2250,
+                                   "sell":  1575
+                               }
+                  },
+                  {
+                      "id":  "4401",
+                      "name":  "Forza della natura",
+                      "plaintext":  "VelocitÃ  di movimento, resistenza magica e rigenerazione salute massima",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e400\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e55\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eRisolutezza\u003c/passive\u003e\u003cbr\u003eOttieni \u003cscaleMR\u003e70 resistenza magica\u003c/scaleMR\u003e e \u003cspeed\u003e6% velocitÃ  di movimento bonus\u003c/speed\u003e dopo aver subito 8 volte danni magici dai campioni.\u003c/mainText\u003e",
+                      "icon":  "4401.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellBlock",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  750,
+                                   "purchasable":  true,
+                                   "total":  2800,
+                                   "sell":  1960
+                               }
+                  },
+                  {
+                      "id":  "4628",
+                      "name":  "Concentrazione dell\u0027orizzonte",
+                      "plaintext":  "Immobilizzare un campione evoca un fulmine che lo colpisce",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e75\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e25\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eIpercolpo\u003c/passive\u003e\u003cbr\u003eInfliggere danni da abilitÃ  ai campioni a una distanza pari o superiore a 600 li \u003ckeywordStealth\u003erivela\u003c/keywordStealth\u003e per 6 secondi. \u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eConcentrazione\u003c/passive\u003e\u003cbr\u003eQuando \u003cpassive\u003eIpercolpo\u003c/passive\u003e si attiva, \u003ckeywordStealth\u003eriveli\u003c/keywordStealth\u003e tutti gli altri campioni nemici in un raggio di 1400 per 3 secondi.\u003c/mainText\u003e",
+                      "icon":  "4628.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  600,
+                                   "purchasable":  true,
+                                   "total":  2700,
+                                   "sell":  1890
+                               }
+                  },
+                  {
+                      "id":  "4629",
+                      "name":  "Spirito cosmico",
+                      "plaintext":  "Riduzione ricarica estremamente elevata",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e70\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e350\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e25\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eDanza incantata\u003c/passive\u003e\u003cbr\u003eInfliggere \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e o \u003ctrueDamage\u003edanni puri\u003c/trueDamage\u003e ai campioni conferisce \u003cspeed\u003evelocitÃ  di movimento\u003c/speed\u003e per 4 secondi. \u003c/mainText\u003e",
+                      "icon":  "4629.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellDamage",
+                                   "NonbootsMovement",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  450,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "4633",
+                      "name":  "Araldo del Vuoto",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e70\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e350\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eCorruzione del Vuoto:\u003c/passive\u003e\u003cbr\u003ePer ogni secondo passato in combattimento con campioni nemici, infliggi un 2% di danni bonus, fino a un 8%. Al massimo della forza, ottieni \u003comnivamp\u003erubavita globale\u003c/omnivamp\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eInfusione del Vuoto\u003c/passive\u003e\u003cbr\u003eOttieni un 2% della tua \u003cscaleHealth\u003esalute bonus\u003c/scaleHealth\u003e come \u003cscaleAP\u003epotere magico\u003c/scaleAP\u003e.\u003c/mainText\u003e",
+                      "icon":  "4633.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellDamage",
+                                   "CooldownReduction",
+                                   "SpellVamp"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  950,
+                                   "purchasable":  true,
+                                   "total":  3100,
+                                   "sell":  2170
+                               }
+                  },
+                  {
+                      "id":  "4645",
+                      "name":  "Ombrofiamma",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e110\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e penetrazione magica\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eBocciolardente\u003c/passive\u003e\u003cbr\u003e\u003cmagicDamage\u003eI danni magici\u003c/magicDamage\u003e e i \u003ctrueDamage\u003edanni puri\u003c/trueDamage\u003e\u003cattention\u003e infliggono colpi critici\u003c/attention\u003e contro i nemici al di sotto di un 40% di salute, infliggendo danni aumentati di un 20%. \u003c/mainText\u003e",
+                      "icon":  "4645.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "MagicPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  900,
+                                   "purchasable":  true,
+                                   "total":  3200,
+                                   "sell":  2240
+                               }
+                  },
+                  {
+                      "id":  "4646",
+                      "name":  "Apice della tempesta",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e90\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e penetrazione magica\u003cbr\u003e\u003cattention\u003e6%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eRazziatore della tempesta\u003c/passive\u003e\u003cbr\u003eInfliggere danni pari a un 25% della salute massima di un campione entro 2.5 secondo/i applica su di esso \u003cpassive\u003eBurrasca\u003c/passive\u003e.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eBurrasca\u003c/passive\u003e\u003cbr\u003eDopo 2 secondi, infliggi \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e. Se il bersaglio muore prima dell\u0027attivazione di \u003cpassive\u003eBurrasca\u003c/passive\u003e, danneggia i nemici nelle vicinanze.\u003c/mainText\u003e",
+                      "icon":  "4646.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "GoldPer",
+                                   "NonbootsMovement",
+                                   "MagicPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  2800,
+                                   "sell":  1960
+                               }
+                  },
+                  {
+                      "id":  "6333",
+                      "name":  "Danza della Morte",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e60\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e50\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eIgnorare il dolore\u003c/passive\u003e\u003cbr\u003eUna percentuale dei danni subiti ti viene inflitta invece nell\u0027arco di 3 secondi.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSfidare\u003c/passive\u003e\u003cbr\u003eQuando muore un campione a cui hai inflitto danni negli ultimi 3 secondi, rimuovi i danni rimanenti di \u003cpassive\u003eIgnorare il dolore\u003c/passive\u003e e recuperi \u003chealing\u003esalute\u003c/healing\u003e nell\u0027arco di 2 secondi.\u003c/mainText\u003e",
+                      "icon":  "6333.png",
+                      "tags":  [
+                                   "Armor",
+                                   "Damage",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  275,
+                                   "purchasable":  true,
+                                   "total":  3300,
+                                   "sell":  2310
+                               }
+                  },
+                  {
+                      "id":  "6609",
+                      "name":  "Spada a catena Chempunk",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e45\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e450\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eMozzare\u003c/passive\u003e\u003cbr\u003eInfliggere danni fisici applica un \u003ckeyword\u003e40% di Ferita grave\u003c/keyword\u003e ai campioni nemici per 3 secondi.\u003c/mainText\u003e",
+                      "icon":  "6609.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  350,
+                                   "purchasable":  true,
+                                   "total":  3100,
+                                   "sell":  2170
+                               }
+                  },
+                  {
+                      "id":  "6610",
+                      "name":  "Cielo infranto",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e45\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e400\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eColpo Lightshield\u003c/passive\u003e\u003cbr\u003eIl tuo primo attacco contro un campione infligge \u003cattention\u003ecolpi critici\u003c/attention\u003e e \u003chealing\u003eripristina salute\u003c/healing\u003e.\u003c/mainText\u003e",
+                      "icon":  "6610.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  500,
+                                   "purchasable":  true,
+                                   "total":  3100,
+                                   "sell":  2170
+                               }
+                  },
+                  {
+                      "id":  "6616",
+                      "name":  "Staffa delle correnti",
+                      "plaintext":  "Le tue guarigioni e i tuoi scudi riducono gli effetti di controllo e conferiscono velocitÃ  di movimento",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e35\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e10%\u003c/attention\u003e guarigione e potere scudo\u003cbr\u003e\u003cattention\u003e125%\u003c/attention\u003e rigenerazione mana base\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eRapide\u003c/passive\u003e\u003cbr\u003eCurare o proteggere un alleato conferisce a entrambi \u003cmagicDamage\u003e45 potere magico\u003c/magicDamage\u003e per 6 secondi.\u003c/mainText\u003e",
+                      "icon":  "6616.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "ManaRegen",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  2250,
+                                   "sell":  1575
+                               }
+                  },
+                  {
+                      "id":  "6617",
+                      "name":  "Pietra di luna rinnovata",
+                      "plaintext":  "Le tue guarigioni e i tuoi scudi si ricaricano piÃ¹ rapidamente e hanno effetti maggiori sugli alleati con salute bassa",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e25\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e200\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e125%\u003c/attention\u003e rigenerazione mana base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eGrazia stellare\u003c/passive\u003e\u003cbr\u003eCurare o proteggere con uno scudo un alleato concatena l\u0027effetto a un altro alleato (escludendo te), \u003chealing\u003ecurando di un 30%\u003c/healing\u003e o \u003cshield\u003eproteggendo con uno scudo da 35%\u003c/shield\u003e del valore originale.\u003c/mainText\u003e",
+                      "icon":  "6617.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellDamage",
+                                   "ManaRegen",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  500,
+                                   "purchasable":  true,
+                                   "total":  2200,
+                                   "sell":  1540
+                               }
+                  },
+                  {
+                      "id":  "6620",
+                      "name":  "Echi di Helia",
+                      "plaintext":  "Danneggia i nemici con salute bassa per attivare un\u0027esplosione maledetta, che infligge danni e rallenta gli avversari vicini",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e35\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e200\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e125%\u003c/attention\u003e rigenerazione mana base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eRisucchio spirituale\u003c/passive\u003e\u003cbr\u003eOttieni un 35% dei danni pre-resistenze inflitti ai campioni come cariche spirituali. Curare o proteggere un alleato con uno scudo consuma tutte le \u003cpassive\u003ecariche spirituali\u003c/passive\u003e per ripristinare \u003chealing\u003esalute\u003c/healing\u003e.\u003c/mainText\u003e",
+                      "icon":  "6620.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellDamage",
+                                   "ManaRegen",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  500,
+                                   "purchasable":  true,
+                                   "total":  2200,
+                                   "sell":  1540
+                               }
+                  },
+                  {
+                      "id":  "6621",
+                      "name":  "Nucleo dell\u0027alba",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e45\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e16%\u003c/attention\u003e guarigione e potere scudo\u003cbr\u003e\u003cattention\u003e100%\u003c/attention\u003e rigenerazione mana base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003ePrima Luce\u003c/passive\u003e\u003cbr\u003eOttieni \u003chealing\u003e2% guarigione e potere scudo\u003c/healing\u003e e \u003cscaleAP\u003e10 potere magico\u003c/scaleAP\u003e per ogni 100% di rigenerazione mana base.\u003c/mainText\u003e",
+                      "icon":  "6621.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "ManaRegen"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  450,
+                                   "purchasable":  true,
+                                   "total":  2500,
+                                   "sell":  1750
+                               }
+                  },
+                  {
+                      "id":  "6631",
+                      "name":  "Spezzapassi",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e40\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e450\u003c/attention\u003e salute\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFendente\u003c/passive\u003e\u003cbr\u003eGli attacchi base infliggono \u003cphysicalDamage\u003edanni fisici\u003c/physicalDamage\u003e ai nemici vicini.\u003cbr\u003e\u003cactive\u003eOnda dirompente\u003c/active\u003e\u003cbr\u003eInfliggi \u003cphysicalDamage\u003edanni fisici\u003c/physicalDamage\u003e e \u003cstatus\u003erallenti\u003c/status\u003e i nemici nelle vicinanze di un 35%.\u003cbr\u003eOttieni un \u003cspeed\u003e35% di velocitÃ  di movimento decrescente\u003c/speed\u003e per campione colpito, per 3 secondi.\u003c/mainText\u003e",
+                      "icon":  "6631.png",
+                      "tags":  [
+                                   "Health",
+                                   "Damage",
+                                   "AttackSpeed",
+                                   "Slow"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  750,
+                                   "purchasable":  true,
+                                   "total":  3300,
+                                   "sell":  2310
+                               }
+                  },
+                  {
+                      "id":  "6653",
+                      "name":  "Tormento di Liandry",
+                      "plaintext":  "Carica in combattimento per infliggere danni nel tempo elevati, specialmente contro i nemici resistenti",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e60\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e300\u003c/attention\u003e salute\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eTormento\u003c/passive\u003e\u003cbr\u003eLe abilitÃ  che infliggono danni fanno bruciare i nemici, infliggendo un \u003cmagicDamage\u003e2% della loro salute massima in danni magici\u003c/magicDamage\u003e al secondo per 3 secondi.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSofferenza\u003c/passive\u003e\u003cbr\u003ePer ogni secondo passato in combattimento con campioni nemici, infliggi un 2% di danni bonus, fino a un massimo di un 6%.\u003c/mainText\u003e",
+                      "icon":  "6653.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellDamage"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "6655",
+                      "name":  "Eco di Luden",
+                      "plaintext":  "Elevati danni a raffica, efficace contro i nemici fragili",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e100\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e600\u003c/attention\u003e mana\u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eEco\u003c/passive\u003e\u003cbr\u003eLe abilitÃ  con danni sparano 6 echi che infliggono \u003cmagicDamage\u003edanni magici bonus\u003c/magicDamage\u003e al bersaglio e ai nemici vicini. Gli echi in eccesso vengono sparati sul bersaglio principale, infliggendo un 20% di danni.\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "6655.png",
+                      "tags":  [
+                                   "SpellDamage",
+                                   "Mana",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  450,
+                                   "purchasable":  true,
+                                   "total":  2750,
+                                   "sell":  1925
+                               }
+                  },
+                  {
+                      "id":  "6657",
+                      "name":  "Bastone secolare",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e45\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e350\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e500\u003c/attention\u003e mana\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSenza tempo\u003c/passive\u003e\u003cbr\u003eQuesto oggetto ottiene \u003cscaleHealth\u003e10 salute\u003c/scaleHealth\u003e, \u003cscaleMana\u003e30 mana\u003c/scaleMana\u003e e \u003cscaleAP\u003e3 potere magico\u003c/scaleAP\u003e ogni 60 secondi, fino a un massimo di 10 volte. Al massimo delle cariche, guadagni un livello.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eEternitÃ \u003c/passive\u003e\u003cbr\u003eSubire danni dai campioni ripristina un \u003cscaleMana\u003e10%\u003c/scaleMana\u003e dei danni come \u003cscaleMana\u003emana\u003c/scaleMana\u003e. \u003cbr\u003eLanciare un\u0027abilitÃ  \u003chealing\u003ecura di un 25%\u003c/healing\u003e del mana speso.\u003c/mainText\u003e",
+                      "icon":  "6657.png",
+                      "tags":  [
+                                   "Health",
+                                   "HealthRegen",
+                                   "SpellDamage",
+                                   "Mana",
+                                   "ManaRegen"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  450,
+                                   "purchasable":  true,
+                                   "total":  2600,
+                                   "sell":  1820
+                               }
+                  },
+                  {
+                      "id":  "6662",
+                      "name":  "Guanto del gelo",
+                      "plaintext":  "Elevata resistenza magica. Rallenta passivamente i nemici vicini. Quando vengono lanciate abilitÃ  vicino a te, scatena un\u0027onda di energia che infligge danni e rallenta i nemici.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e300\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e50\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLama incantata\u003c/passive\u003e\u003cbr\u003eDopo aver usato un\u0027abilitÃ , il tuo prossimo attacco infligge \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e e crea un campo di ghiaccio per 2 secondo/i che \u003cstatus\u003erallenta\u003c/status\u003e.\u003c/mainText\u003e",
+                      "icon":  "6662.png",
+                      "tags":  [
+                                   "Health",
+                                   "Armor",
+                                   "CooldownReduction",
+                                   "Slow",
+                                   "OnHit",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  800,
+                                   "purchasable":  true,
+                                   "total":  2900,
+                                   "sell":  2030
+                               }
+                  },
+                  {
+                      "id":  "6664",
+                      "name":  "Luce vana",
+                      "plaintext":  "Immobilizza i nemici per ottenere uno scudo. Attivala per correre piÃ¹ rapidamente verso gli avversari.",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e400\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e40\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003cbr\u003e\u003cattention\u003e100%\u003c/attention\u003e rigenerazione salute base\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eImmolazione\u003c/passive\u003e\u003cbr\u003eDopo aver inflitto o subito danni, infliggi \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e al secondo ai nemici vicini per 3 secondi. \u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eDesolazione\u003c/passive\u003e\u003cbr\u003eUccidere un nemico infligge \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e attorno a lui.\u003c/mainText\u003e",
+                      "icon":  "6664.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellBlock",
+                                   "HealthRegen",
+                                   "Aura",
+                                   "MagicResist",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  650,
+                                   "purchasable":  true,
+                                   "total":  2800,
+                                   "sell":  1960
+                               }
+                  },
+                  {
+                      "id":  "6665",
+                      "name":  "Jak\u0027Sho, il Mutevole",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e350\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e armatura\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e resistenza magica\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eResistenza delle Creature del Vuoto\u003c/passive\u003e\u003cbr\u003eDopo 5 secondi di combattimento contro i campioni aumenti \u003cscaleArmor\u003earmatura\u003c/scaleArmor\u003e e \u003cscaleMR\u003eresistenza magica\u003c/scaleMR\u003e bonus di un 30% fino alla fine del combattimento.\u003cbr\u003e\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "6665.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellBlock",
+                                   "Armor",
+                                   "MagicResist"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  650,
+                                   "purchasable":  true,
+                                   "total":  3200,
+                                   "sell":  2240
+                               }
+                  },
+                  {
+                      "id":  "6672",
+                      "name":  "Uccisore di Kraken",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e45\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e40%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFatti sotto\u003c/passive\u003e\u003cbr\u003eOgni terzo attacco base infligge \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e \u003cOnHit\u003eSul colpo\u003c/OnHit\u003e, aumentati in base alla salute mancante.\u003c/mainText\u003e",
+                      "icon":  "6672.png",
+                      "tags":  [
+                                   "Damage",
+                                   "AttackSpeed",
+                                   "OnHit",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  325,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "6673",
+                      "name":  "Arcoscudo immortale",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLinea vitale\u003c/passive\u003e\u003cbr\u003eQuando subisci danni che porterebbero la tua salute sotto un 30%, conferisce uno \u003cshield\u003escudo\u003c/shield\u003e per 3 secondi.\u003c/mainText\u003e",
+                      "icon":  "6673.png",
+                      "tags":  [
+                                   "Damage",
+                                   "CriticalStrike"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  825,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "6675",
+                      "name":  "Lama rotante Navori",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e40%\u003c/attention\u003e velocitÃ  d\u0027attacco\u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003cbr\u003e\u003cattention\u003e4%\u003c/attention\u003e velocitÃ  di movimento\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eTrascendenza\u003c/passive\u003e\u003cbr\u003eGli attacchi riducono la ricarica delle tue abilitÃ  base di un \u003cattention\u003e15%\u003c/attention\u003e della ricarica rimasta.\u003c/mainText\u003e",
+                      "icon":  "6675.png",
+                      "tags":  [
+                                   "CriticalStrike",
+                                   "AttackSpeed",
+                                   "NonbootsMovement"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  950,
+                                   "purchasable":  true,
+                                   "total":  2650,
+                                   "sell":  1855
+                               }
+                  },
+                  {
+                      "id":  "6676",
+                      "name":  "Il Collezionista",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e50\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 10\u003c/attention\u003e LetalitÃ \u003cbr\u003e\u003cattention\u003e25%\u003c/attention\u003e probabilitÃ  colpo critico\u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eMorte\u003c/passive\u003e\u003cbr\u003eI tuoi danni eliminano i campioni che hanno una percentuale di salute piÃ¹ bassa di un 5%.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eTasse\u003c/passive\u003e\u003cbr\u003eLe uccisioni dei campioni conferiscono \u003cgold\u003e25 oro\u003c/gold\u003e bonus.\u003c/mainText\u003e",
+                      "icon":  "6676.png",
+                      "tags":  [
+                                   "Damage",
+                                   "CriticalStrike",
+                                   "ArmorPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  525,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "6692",
+                      "name":  "Eclissi",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e60\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eLuna eterna\u003c/passive\u003e\u003cbr\u003eColpire un campione con 2 attacchi o abilitÃ  separati entro 2 secondi ti conferisce uno \u003cshield\u003escudo da \u003c/shield\u003e per 2 secondi.\u003c/mainText\u003e",
+                      "icon":  "6692.png",
+                      "tags":  [
+                                   "Damage",
+                                   "CooldownReduction",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  625,
+                                   "purchasable":  true,
+                                   "total":  2900,
+                                   "sell":  2030
+                               }
+                  },
+                  {
+                      "id":  "6694",
+                      "name":  "Rancore di Serylda",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e45\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e35%\u003c/attention\u003e penetrazione armatura\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFreddo pungente\u003c/passive\u003e\u003cbr\u003eLe tue abilitÃ  che infliggono danni \u003cstatus\u003erallentano\u003c/status\u003e i nemici con salute inferiore a un 50% di un 30% per 1 secondo.\u003c/mainText\u003e",
+                      "icon":  "6694.png",
+                      "tags":  [
+                                   "Damage",
+                                   "CooldownReduction",
+                                   "ArmorPenetration",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  500,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "6695",
+                      "name":  "Zanna del serpente",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 15\u003c/attention\u003e LetalitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eSpaccascudo\u003c/passive\u003e\u003cbr\u003eInfliggere danni a un campione nemico riduce gli scudi che ottiene di un 0% per 3 secondi. \u003cbr\u003eSe il nemico non Ã¨ giÃ  affetto da \u003cpassive\u003eSpaccascudo\u003c/passive\u003e, riduci tutti i suoi scudi di un 0%.\u003c/mainText\u003e",
+                      "icon":  "6695.png",
+                      "tags":  [
+                                   "Damage",
+                                   "ArmorPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  625,
+                                   "purchasable":  true,
+                                   "total":  2500,
+                                   "sell":  1750
+                               }
+                  },
+                  {
+                      "id":  "6696",
+                      "name":  "Arco di Assioma",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 18\u003c/attention\u003e LetalitÃ \u003cbr\u003e\u003cattention\u003e20\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFlusso\u003c/passive\u003e\u003cbr\u003eQuando un campione che hai danneggiato negli ultimi 3 secondi muore, rimborsa parte della ricarica totale dell\u0027abilitÃ  suprema.\u003c/mainText\u003e",
+                      "icon":  "6696.png",
+                      "tags":  [
+                                   "Damage",
+                                   "ArmorPenetration",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  363,
+                                   "purchasable":  true,
+                                   "total":  2750,
+                                   "sell":  1925
+                               }
+                  },
+                  {
+                      "id":  "6697",
+                      "name":  "Tracotanza",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e60\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 18\u003c/attention\u003e LetalitÃ \u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eEminenza\u003c/passive\u003e\u003cbr\u003eQuando un campione che hai danneggiato negli ultimi 3 secondi muore, ottieni \u003cphysicalDamage\u003e15 attacco fisico piÃ¹ 2 per campione ucciso\u003c/physicalDamage\u003e per 90 secondi.\u003c/mainText\u003e",
+                      "icon":  "6697.png",
+                      "tags":  [
+                                   "Damage",
+                                   "Active",
+                                   "CooldownReduction",
+                                   "ArmorPenetration",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  950,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "6698",
+                      "name":  "Idra profana",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 18\u003c/attention\u003e LetalitÃ \u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFendente\u003c/passive\u003e\u003cbr\u003eGli attacchi infliggono \u003cphysicalDamage\u003edanni fisici\u003c/physicalDamage\u003e ai nemici vicini.\u003cbr\u003e\u003cactive\u003eFendente eretico\u003c/active\u003e\u003cbr\u003eInfligge \u003cphysicalDamage\u003edanni fisici\u003c/physicalDamage\u003e attorno a te.\u003c/mainText\u003e",
+                      "icon":  "6698.png",
+                      "tags":  [
+                                   "Damage",
+                                   "Active",
+                                   "CooldownReduction",
+                                   "ArmorPenetration",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  313,
+                                   "purchasable":  true,
+                                   "total":  2850,
+                                   "sell":  1995
+                               }
+                  },
+                  {
+                      "id":  "6699",
+                      "name":  "Ciclospada voltaica",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 18\u003c/attention\u003e LetalitÃ \u003cbr\u003e\u003cattention\u003e10\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eGalvanizzare\u003c/passive\u003e\u003cbr\u003eGli scatti e la furtivitÃ  accumulano \u003ckeyword\u003eEnergizzato\u003c/keyword\u003e un 75% piÃ¹ velocemente.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eFirmamento\u003c/passive\u003e\u003cbr\u003eIl tuo \u003ckeyword\u003eattacco energizzato\u003c/keyword\u003e infligge \u003cphysicalDamage\u003edanni fisici bonus\u003c/physicalDamage\u003e e \u003ckeyword\u003erallenta\u003c/keyword\u003e per 0.75 secondi.\u003c/mainText\u003e",
+                      "icon":  "6699.png",
+                      "tags":  [
+                                   "Damage",
+                                   "Active",
+                                   "CooldownReduction",
+                                   "ArmorPenetration",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  963,
+                                   "purchasable":  true,
+                                   "total":  3000,
+                                   "sell":  2100
+                               }
+                  },
+                  {
+                      "id":  "6701",
+                      "name":  "OpportunitÃ ",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e55\u003c/attention\u003e attacco fisico\u003cbr\u003e\u003cattention\u003e 18\u003c/attention\u003e LetalitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003ePreparazione\u003c/passive\u003e\u003cbr\u003eDopo essere stato fuori dai combattimenti con i campioni per 8 secondi, ottieni \u003cscaleLethality\u003eLetalitÃ \u003c/scaleLethality\u003e. Questa LetalitÃ  permane per 3 secondi dopo aver inflitto danni ai campioni.\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eEstrazione\u003c/passive\u003e\u003cbr\u003eQuando un campione che hai danneggiato negli ultimi 3 secondi muore, ottieni \u003cspeed\u003e200 velocitÃ  di movimento decrescente\u003c/speed\u003e per 1.5 secondi.\u003cbr\u003e\u003c/mainText\u003e",
+                      "icon":  "6701.png",
+                      "tags":  [
+                                   "Damage",
+                                   "Active",
+                                   "NonbootsMovement",
+                                   "ArmorPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  475,
+                                   "purchasable":  true,
+                                   "total":  2700,
+                                   "sell":  1890
+                               }
+                  },
+                  {
+                      "id":  "8010",
+                      "name":  "Maledizione della lettera insanguinata",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e65\u003c/attention\u003e potere magico\u003cbr\u003e\u003cattention\u003e400\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eVile decadimento\u003c/passive\u003e\u003cbr\u003eInfliggere \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e con le abilitÃ  o le passive ai campioni ne riduce la \u003cscaleMR\u003eresistenza magica di un 7.5%\u003c/scaleMR\u003e per 6 secondi, fino a un 30%.\u003c/mainText\u003e",
+                      "icon":  "8010.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellDamage",
+                                   "CooldownReduction",
+                                   "MagicPenetration"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  750,
+                                   "purchasable":  true,
+                                   "total":  2900,
+                                   "sell":  2030
+                               }
+                  },
+                  {
+                      "id":  "8020",
+                      "name":  "Maschera dell\u0027abisso",
+                      "plaintext":  "",
+                      "description":  "\u003cmainText\u003e\u003cstats\u003e\u003cattention\u003e350\u003c/attention\u003e salute\u003cbr\u003e\u003cattention\u003e45\u003c/attention\u003e resistenza magica\u003cbr\u003e\u003cattention\u003e15\u003c/attention\u003e velocitÃ  abilitÃ \u003c/stats\u003e\u003cbr\u003e\u003cbr\u003e\u003cpassive\u003eDisfare\u003c/passive\u003e\u003cbr\u003eI campioni nemici vicini subiscono un 12% di \u003cmagicDamage\u003edanni magici\u003c/magicDamage\u003e in piÃ¹.\u003c/mainText\u003e",
+                      "icon":  "8020.png",
+                      "tags":  [
+                                   "Health",
+                                   "SpellBlock",
+                                   "CooldownReduction",
+                                   "MagicResist",
+                                   "AbilityHaste"
+                               ],
+                      "isMythic":  false,
+                      "isLegendary":  false,
+                      "isBootT3":  false,
+                      "gold":  {
+                                   "base":  1000,
+                                   "purchasable":  true,
+                                   "total":  2650,
+                                   "sell":  1855
+                               }
+                  }
+              ]
+}

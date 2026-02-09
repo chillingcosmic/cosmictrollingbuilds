@@ -1,0 +1,1041 @@
+{
+    "meta":  {
+                 "version":  "16.3.1",
+                 "locale":  "it_IT",
+                 "generatedAt":  "2026-02-09T14:19:50"
+             },
+    "champions":  [
+                      {
+                          "id":  "Aatrox",
+                          "name":  "Aatrox",
+                          "title":  "la lama dei Darkin",
+                          "icon":  "Aatrox.png"
+                      },
+                      {
+                          "id":  "Ahri",
+                          "name":  "Ahri",
+                          "title":  "la volpe a nove code",
+                          "icon":  "Ahri.png"
+                      },
+                      {
+                          "id":  "Akali",
+                          "name":  "Akali",
+                          "title":  "l\u0027assassina solitaria",
+                          "icon":  "Akali.png"
+                      },
+                      {
+                          "id":  "Akshan",
+                          "name":  "Akshan",
+                          "title":  "la Sentinella ribelle",
+                          "icon":  "Akshan.png"
+                      },
+                      {
+                          "id":  "Alistar",
+                          "name":  "Alistar",
+                          "title":  "il minotauro",
+                          "icon":  "Alistar.png"
+                      },
+                      {
+                          "id":  "Ambessa",
+                          "name":  "Ambessa",
+                          "title":  "Matriarca della guerra",
+                          "icon":  "Ambessa.png"
+                      },
+                      {
+                          "id":  "Amumu",
+                          "name":  "Amumu",
+                          "title":  "la mummia triste",
+                          "icon":  "Amumu.png"
+                      },
+                      {
+                          "id":  "Anivia",
+                          "name":  "Anivia",
+                          "title":  "la criofenice",
+                          "icon":  "Anivia.png"
+                      },
+                      {
+                          "id":  "Annie",
+                          "name":  "Annie",
+                          "title":  "la bambina oscura",
+                          "icon":  "Annie.png"
+                      },
+                      {
+                          "id":  "Aphelios",
+                          "name":  "Aphelios",
+                          "title":  "L\u0027arma della fede",
+                          "icon":  "Aphelios.png"
+                      },
+                      {
+                          "id":  "Ashe",
+                          "name":  "Ashe",
+                          "title":  "l\u0027arciere dei ghiacci",
+                          "icon":  "Ashe.png"
+                      },
+                      {
+                          "id":  "AurelionSol",
+                          "name":  "Aurelion Sol",
+                          "title":  "il forgiatore di stelle",
+                          "icon":  "AurelionSol.png"
+                      },
+                      {
+                          "id":  "Aurora",
+                          "name":  "Aurora",
+                          "title":  "la strega tra i mondi",
+                          "icon":  "Aurora.png"
+                      },
+                      {
+                          "id":  "Azir",
+                          "name":  "Azir",
+                          "title":  "l\u0027imperatore delle sabbie",
+                          "icon":  "Azir.png"
+                      },
+                      {
+                          "id":  "Bard",
+                          "name":  "Bard",
+                          "title":  "il custode errante",
+                          "icon":  "Bard.png"
+                      },
+                      {
+                          "id":  "Belveth",
+                          "name":  "Bel\u0027Veth",
+                          "title":  "l\u0027imperatrice del Vuoto",
+                          "icon":  "Belveth.png"
+                      },
+                      {
+                          "id":  "Blitzcrank",
+                          "name":  "Blitzcrank",
+                          "title":  "il grande golem a vapore",
+                          "icon":  "Blitzcrank.png"
+                      },
+                      {
+                          "id":  "Brand",
+                          "name":  "Brand",
+                          "title":  "la vendetta ardente",
+                          "icon":  "Brand.png"
+                      },
+                      {
+                          "id":  "Braum",
+                          "name":  "Braum",
+                          "title":  "il cuore del Freljord",
+                          "icon":  "Braum.png"
+                      },
+                      {
+                          "id":  "Briar",
+                          "name":  "Briar",
+                          "title":  "la fame repressa",
+                          "icon":  "Briar.png"
+                      },
+                      {
+                          "id":  "Caitlyn",
+                          "name":  "Caitlyn",
+                          "title":  "lo sceriffo di Piltover",
+                          "icon":  "Caitlyn.png"
+                      },
+                      {
+                          "id":  "Camille",
+                          "name":  "Camille",
+                          "title":  "l\u0027ombra d\u0027acciaio",
+                          "icon":  "Camille.png"
+                      },
+                      {
+                          "id":  "Cassiopeia",
+                          "name":  "Cassiopeia",
+                          "title":  "l\u0027abbraccio del serpente",
+                          "icon":  "Cassiopeia.png"
+                      },
+                      {
+                          "id":  "Chogath",
+                          "name":  "Cho\u0027Gath",
+                          "title":  "il terrore del Vuoto",
+                          "icon":  "Chogath.png"
+                      },
+                      {
+                          "id":  "Corki",
+                          "name":  "Corki",
+                          "title":  "il bombardiere spericolato",
+                          "icon":  "Corki.png"
+                      },
+                      {
+                          "id":  "Darius",
+                          "name":  "Darius",
+                          "title":  "la mano di Noxus",
+                          "icon":  "Darius.png"
+                      },
+                      {
+                          "id":  "Diana",
+                          "name":  "Diana",
+                          "title":  "il disprezzo della Luna",
+                          "icon":  "Diana.png"
+                      },
+                      {
+                          "id":  "Draven",
+                          "name":  "Draven",
+                          "title":  "il glorioso carnefice",
+                          "icon":  "Draven.png"
+                      },
+                      {
+                          "id":  "DrMundo",
+                          "name":  "Dr. Mundo",
+                          "title":  "il folle di Zaun",
+                          "icon":  "DrMundo.png"
+                      },
+                      {
+                          "id":  "Ekko",
+                          "name":  "Ekko",
+                          "title":  "il ragazzo che ha infranto il tempo",
+                          "icon":  "Ekko.png"
+                      },
+                      {
+                          "id":  "Elise",
+                          "name":  "Elise",
+                          "title":  "la regina dei ragni",
+                          "icon":  "Elise.png"
+                      },
+                      {
+                          "id":  "Evelynn",
+                          "name":  "Evelynn",
+                          "title":  "L\u0027abbraccio agonizzante",
+                          "icon":  "Evelynn.png"
+                      },
+                      {
+                          "id":  "Ezreal",
+                          "name":  "Ezreal",
+                          "title":  "il prodigo esploratore",
+                          "icon":  "Ezreal.png"
+                      },
+                      {
+                          "id":  "Fiddlesticks",
+                          "name":  "Fiddlesticks",
+                          "title":  "l\u0027antico terrore",
+                          "icon":  "Fiddlesticks.png"
+                      },
+                      {
+                          "id":  "Fiora",
+                          "name":  "Fiora",
+                          "title":  "la magnifica duellante",
+                          "icon":  "Fiora.png"
+                      },
+                      {
+                          "id":  "Fizz",
+                          "name":  "Fizz",
+                          "title":  "il prestigiatore delle maree",
+                          "icon":  "Fizz.png"
+                      },
+                      {
+                          "id":  "Galio",
+                          "name":  "Galio",
+                          "title":  "il colosso",
+                          "icon":  "Galio.png"
+                      },
+                      {
+                          "id":  "Gangplank",
+                          "name":  "Gangplank",
+                          "title":  "il flagello dei mari",
+                          "icon":  "Gangplank.png"
+                      },
+                      {
+                          "id":  "Garen",
+                          "name":  "Garen",
+                          "title":  "la potenza di Demacia",
+                          "icon":  "Garen.png"
+                      },
+                      {
+                          "id":  "Gnar",
+                          "name":  "Gnar",
+                          "title":  "l\u0027anello mancante",
+                          "icon":  "Gnar.png"
+                      },
+                      {
+                          "id":  "Gragas",
+                          "name":  "Gragas",
+                          "title":  "il provocatore delle masse",
+                          "icon":  "Gragas.png"
+                      },
+                      {
+                          "id":  "Graves",
+                          "name":  "Graves",
+                          "title":  "il fuorilegge",
+                          "icon":  "Graves.png"
+                      },
+                      {
+                          "id":  "Gwen",
+                          "name":  "Gwen",
+                          "title":  "La Sacra ricamatrice",
+                          "icon":  "Gwen.png"
+                      },
+                      {
+                          "id":  "Hecarim",
+                          "name":  "Hecarim",
+                          "title":  "l\u0027ombra della guerra",
+                          "icon":  "Hecarim.png"
+                      },
+                      {
+                          "id":  "Heimerdinger",
+                          "name":  "Heimerdinger",
+                          "title":  "il riverito inventore",
+                          "icon":  "Heimerdinger.png"
+                      },
+                      {
+                          "id":  "Hwei",
+                          "name":  "Hwei",
+                          "title":  "Il visionario",
+                          "icon":  "Hwei.png"
+                      },
+                      {
+                          "id":  "Illaoi",
+                          "name":  "Illaoi",
+                          "title":  "la sacerdotessa del kraken",
+                          "icon":  "Illaoi.png"
+                      },
+                      {
+                          "id":  "Irelia",
+                          "name":  "Irelia",
+                          "title":  "la danzatrice delle lame",
+                          "icon":  "Irelia.png"
+                      },
+                      {
+                          "id":  "Ivern",
+                          "name":  "Ivern",
+                          "title":  "l\u0027anziano della foresta",
+                          "icon":  "Ivern.png"
+                      },
+                      {
+                          "id":  "Janna",
+                          "name":  "Janna",
+                          "title":  "la furia della tempesta",
+                          "icon":  "Janna.png"
+                      },
+                      {
+                          "id":  "JarvanIV",
+                          "name":  "Jarvan IV",
+                          "title":  "l\u0027esempio di Demacia",
+                          "icon":  "JarvanIV.png"
+                      },
+                      {
+                          "id":  "Jax",
+                          "name":  "Jax",
+                          "title":  "gran maestro d\u0027armi",
+                          "icon":  "Jax.png"
+                      },
+                      {
+                          "id":  "Jayce",
+                          "name":  "Jayce",
+                          "title":  "il difensore del domani",
+                          "icon":  "Jayce.png"
+                      },
+                      {
+                          "id":  "Jhin",
+                          "name":  "Jhin",
+                          "title":  "il virtuoso",
+                          "icon":  "Jhin.png"
+                      },
+                      {
+                          "id":  "Jinx",
+                          "name":  "Jinx",
+                          "title":  "la mina vagante",
+                          "icon":  "Jinx.png"
+                      },
+                      {
+                          "id":  "Kaisa",
+                          "name":  "Kai\u0027Sa",
+                          "title":  "Figlia del vuoto",
+                          "icon":  "Kaisa.png"
+                      },
+                      {
+                          "id":  "Kalista",
+                          "name":  "Kalista",
+                          "title":  "la lancia della vendetta",
+                          "icon":  "Kalista.png"
+                      },
+                      {
+                          "id":  "Karma",
+                          "name":  "Karma",
+                          "title":  "l\u0027illuminata",
+                          "icon":  "Karma.png"
+                      },
+                      {
+                          "id":  "Karthus",
+                          "name":  "Karthus",
+                          "title":  "il cantore della morte",
+                          "icon":  "Karthus.png"
+                      },
+                      {
+                          "id":  "Kassadin",
+                          "name":  "Kassadin",
+                          "title":  "il camminatore del Vuoto",
+                          "icon":  "Kassadin.png"
+                      },
+                      {
+                          "id":  "Katarina",
+                          "name":  "Katarina",
+                          "title":  "la lama sinistra",
+                          "icon":  "Katarina.png"
+                      },
+                      {
+                          "id":  "Kayle",
+                          "name":  "Kayle",
+                          "title":  "la Virtuosa",
+                          "icon":  "Kayle.png"
+                      },
+                      {
+                          "id":  "Kayn",
+                          "name":  "Kayn",
+                          "title":  "il mietitore d\u0027ombra",
+                          "icon":  "Kayn.png"
+                      },
+                      {
+                          "id":  "Kennen",
+                          "name":  "Kennen",
+                          "title":  "il cuore della tempesta",
+                          "icon":  "Kennen.png"
+                      },
+                      {
+                          "id":  "Khazix",
+                          "name":  "Kha\u0027Zix",
+                          "title":  "il razziatore del Vuoto",
+                          "icon":  "Khazix.png"
+                      },
+                      {
+                          "id":  "Kindred",
+                          "name":  "Kindred",
+                          "title":  "i cacciatori eterni",
+                          "icon":  "Kindred.png"
+                      },
+                      {
+                          "id":  "Kled",
+                          "name":  "Kled",
+                          "title":  "l\u0027isterico cavaliere",
+                          "icon":  "Kled.png"
+                      },
+                      {
+                          "id":  "KogMaw",
+                          "name":  "Kog\u0027Maw",
+                          "title":  "la bocca dell\u0027abisso",
+                          "icon":  "KogMaw.png"
+                      },
+                      {
+                          "id":  "KSante",
+                          "name":  "K\u0027Sante",
+                          "title":  "l\u0027orgoglio di Nazumah",
+                          "icon":  "KSante.png"
+                      },
+                      {
+                          "id":  "Leblanc",
+                          "name":  "LeBlanc",
+                          "title":  "l\u0027ingannatrice",
+                          "icon":  "Leblanc.png"
+                      },
+                      {
+                          "id":  "LeeSin",
+                          "name":  "Lee Sin",
+                          "title":  "il monaco cieco",
+                          "icon":  "LeeSin.png"
+                      },
+                      {
+                          "id":  "Leona",
+                          "name":  "Leona",
+                          "title":  "l\u0027alba raggiante",
+                          "icon":  "Leona.png"
+                      },
+                      {
+                          "id":  "Lillia",
+                          "name":  "Lillia",
+                          "title":  "il timido bocciolo",
+                          "icon":  "Lillia.png"
+                      },
+                      {
+                          "id":  "Lissandra",
+                          "name":  "Lissandra",
+                          "title":  "la strega dei ghiacci",
+                          "icon":  "Lissandra.png"
+                      },
+                      {
+                          "id":  "Lucian",
+                          "name":  "Lucian",
+                          "title":  "il purificatore",
+                          "icon":  "Lucian.png"
+                      },
+                      {
+                          "id":  "Lulu",
+                          "name":  "Lulu",
+                          "title":  "la sacerdotessa delle fate",
+                          "icon":  "Lulu.png"
+                      },
+                      {
+                          "id":  "Lux",
+                          "name":  "Lux",
+                          "title":  "la signora della luminositÃ ",
+                          "icon":  "Lux.png"
+                      },
+                      {
+                          "id":  "Malphite",
+                          "name":  "Malphite",
+                          "title":  "la scheggia del monolite",
+                          "icon":  "Malphite.png"
+                      },
+                      {
+                          "id":  "Malzahar",
+                          "name":  "Malzahar",
+                          "title":  "il profeta del Vuoto",
+                          "icon":  "Malzahar.png"
+                      },
+                      {
+                          "id":  "Maokai",
+                          "name":  "Maokai",
+                          "title":  "il treant demoniaco",
+                          "icon":  "Maokai.png"
+                      },
+                      {
+                          "id":  "MasterYi",
+                          "name":  "Master Yi",
+                          "title":  "lo spadaccino Wuju",
+                          "icon":  "MasterYi.png"
+                      },
+                      {
+                          "id":  "Mel",
+                          "name":  "Mel",
+                          "title":  "il riflesso dell\u0027anima",
+                          "icon":  "Mel.png"
+                      },
+                      {
+                          "id":  "Milio",
+                          "name":  "Milio",
+                          "title":  "La fiamma gentile",
+                          "icon":  "Milio.png"
+                      },
+                      {
+                          "id":  "MissFortune",
+                          "name":  "Miss Fortune",
+                          "title":  "la cacciatrice di taglie",
+                          "icon":  "MissFortune.png"
+                      },
+                      {
+                          "id":  "MonkeyKing",
+                          "name":  "Wukong",
+                          "title":  "il re delle scimmie",
+                          "icon":  "MonkeyKing.png"
+                      },
+                      {
+                          "id":  "Mordekaiser",
+                          "name":  "Mordekaiser",
+                          "title":  "il revenant di ferro",
+                          "icon":  "Mordekaiser.png"
+                      },
+                      {
+                          "id":  "Morgana",
+                          "name":  "Morgana",
+                          "title":  "la Caduta",
+                          "icon":  "Morgana.png"
+                      },
+                      {
+                          "id":  "Naafiri",
+                          "name":  "Naafiri",
+                          "title":  "il segugio dai cento morsi",
+                          "icon":  "Naafiri.png"
+                      },
+                      {
+                          "id":  "Nami",
+                          "name":  "Nami",
+                          "title":  "lo spirito delle maree",
+                          "icon":  "Nami.png"
+                      },
+                      {
+                          "id":  "Nasus",
+                          "name":  "Nasus",
+                          "title":  "il custode delle dune",
+                          "icon":  "Nasus.png"
+                      },
+                      {
+                          "id":  "Nautilus",
+                          "name":  "Nautilus",
+                          "title":  "il titano delle profonditÃ ",
+                          "icon":  "Nautilus.png"
+                      },
+                      {
+                          "id":  "Neeko",
+                          "name":  "Neeko",
+                          "title":  "la camaleonte curiosa",
+                          "icon":  "Neeko.png"
+                      },
+                      {
+                          "id":  "Nidalee",
+                          "name":  "Nidalee",
+                          "title":  "la cacciatrice bestiale",
+                          "icon":  "Nidalee.png"
+                      },
+                      {
+                          "id":  "Nilah",
+                          "name":  "Nilah",
+                          "title":  "la gioia travolgente",
+                          "icon":  "Nilah.png"
+                      },
+                      {
+                          "id":  "Nocturne",
+                          "name":  "Nocturne",
+                          "title":  "l\u0027eterno incubo",
+                          "icon":  "Nocturne.png"
+                      },
+                      {
+                          "id":  "Nunu",
+                          "name":  "Nunu e Willump",
+                          "title":  "il bambino e lo yeti",
+                          "icon":  "Nunu.png"
+                      },
+                      {
+                          "id":  "Olaf",
+                          "name":  "Olaf",
+                          "title":  "il berserker",
+                          "icon":  "Olaf.png"
+                      },
+                      {
+                          "id":  "Orianna",
+                          "name":  "Orianna",
+                          "title":  "la signora degli ingranaggi",
+                          "icon":  "Orianna.png"
+                      },
+                      {
+                          "id":  "Ornn",
+                          "name":  "Ornn",
+                          "title":  "il fuoco della montagna",
+                          "icon":  "Ornn.png"
+                      },
+                      {
+                          "id":  "Pantheon",
+                          "name":  "Pantheon",
+                          "title":  "la lancia indistruttibile",
+                          "icon":  "Pantheon.png"
+                      },
+                      {
+                          "id":  "Poppy",
+                          "name":  "Poppy",
+                          "title":  "la custode del martello",
+                          "icon":  "Poppy.png"
+                      },
+                      {
+                          "id":  "Pyke",
+                          "name":  "Pyke",
+                          "title":  "lo squartatore del porto insanguinato",
+                          "icon":  "Pyke.png"
+                      },
+                      {
+                          "id":  "Qiyana",
+                          "name":  "Qiyana",
+                          "title":  "L\u0027imperatrice degli elementi",
+                          "icon":  "Qiyana.png"
+                      },
+                      {
+                          "id":  "Quinn",
+                          "name":  "Quinn",
+                          "title":  "le ali di Demacia",
+                          "icon":  "Quinn.png"
+                      },
+                      {
+                          "id":  "Rakan",
+                          "name":  "Rakan",
+                          "title":  "l\u0027ammaliatore",
+                          "icon":  "Rakan.png"
+                      },
+                      {
+                          "id":  "Rammus",
+                          "name":  "Rammus",
+                          "title":  "l\u0027arma-dillo",
+                          "icon":  "Rammus.png"
+                      },
+                      {
+                          "id":  "RekSai",
+                          "name":  "Rek\u0027Sai",
+                          "title":  "la predatrice del Vuoto",
+                          "icon":  "RekSai.png"
+                      },
+                      {
+                          "id":  "Rell",
+                          "name":  "Rell",
+                          "title":  "la Vergine di ferro",
+                          "icon":  "Rell.png"
+                      },
+                      {
+                          "id":  "Renata",
+                          "name":  "Renata Glasc",
+                          "title":  "la Baronessa chimica",
+                          "icon":  "Renata.png"
+                      },
+                      {
+                          "id":  "Renekton",
+                          "name":  "Renekton",
+                          "title":  "il macellaio delle dune",
+                          "icon":  "Renekton.png"
+                      },
+                      {
+                          "id":  "Rengar",
+                          "name":  "Rengar",
+                          "title":  "il cacciatore orgoglioso",
+                          "icon":  "Rengar.png"
+                      },
+                      {
+                          "id":  "Riven",
+                          "name":  "Riven",
+                          "title":  "l\u0027esiliata",
+                          "icon":  "Riven.png"
+                      },
+                      {
+                          "id":  "Rumble",
+                          "name":  "Rumble",
+                          "title":  "la minaccia meccanizzata",
+                          "icon":  "Rumble.png"
+                      },
+                      {
+                          "id":  "Ryze",
+                          "name":  "Ryze",
+                          "title":  "il mago delle rune",
+                          "icon":  "Ryze.png"
+                      },
+                      {
+                          "id":  "Samira",
+                          "name":  "Samira",
+                          "title":  "la rosa del deserto",
+                          "icon":  "Samira.png"
+                      },
+                      {
+                          "id":  "Sejuani",
+                          "name":  "Sejuani",
+                          "title":  "Furia del nord",
+                          "icon":  "Sejuani.png"
+                      },
+                      {
+                          "id":  "Senna",
+                          "name":  "Senna",
+                          "title":  "la Redentrice",
+                          "icon":  "Senna.png"
+                      },
+                      {
+                          "id":  "Seraphine",
+                          "name":  "Seraphine",
+                          "title":  "la cantante sognatrice",
+                          "icon":  "Seraphine.png"
+                      },
+                      {
+                          "id":  "Sett",
+                          "name":  "Sett",
+                          "title":  "il boss",
+                          "icon":  "Sett.png"
+                      },
+                      {
+                          "id":  "Shaco",
+                          "name":  "Shaco",
+                          "title":  "il demone giullare",
+                          "icon":  "Shaco.png"
+                      },
+                      {
+                          "id":  "Shen",
+                          "name":  "Shen",
+                          "title":  "l\u0027occhio del crepuscolo",
+                          "icon":  "Shen.png"
+                      },
+                      {
+                          "id":  "Shyvana",
+                          "name":  "Shyvana",
+                          "title":  "il mezzo-drago",
+                          "icon":  "Shyvana.png"
+                      },
+                      {
+                          "id":  "Singed",
+                          "name":  "Singed",
+                          "title":  "il folle chimico",
+                          "icon":  "Singed.png"
+                      },
+                      {
+                          "id":  "Sion",
+                          "name":  "Sion",
+                          "title":  "Il colosso non-morto",
+                          "icon":  "Sion.png"
+                      },
+                      {
+                          "id":  "Sivir",
+                          "name":  "Sivir",
+                          "title":  "la signora delle battaglie",
+                          "icon":  "Sivir.png"
+                      },
+                      {
+                          "id":  "Skarner",
+                          "name":  "Skarner",
+                          "title":  "il Sovrano primordiale",
+                          "icon":  "Skarner.png"
+                      },
+                      {
+                          "id":  "Smolder",
+                          "name":  "Smolder",
+                          "title":  "il principino ardente",
+                          "icon":  "Smolder.png"
+                      },
+                      {
+                          "id":  "Sona",
+                          "name":  "Sona",
+                          "title":  "maestra delle corde",
+                          "icon":  "Sona.png"
+                      },
+                      {
+                          "id":  "Soraka",
+                          "name":  "Soraka",
+                          "title":  "la figlia delle stelle",
+                          "icon":  "Soraka.png"
+                      },
+                      {
+                          "id":  "Swain",
+                          "name":  "Swain",
+                          "title":  "il gran generale di Noxus",
+                          "icon":  "Swain.png"
+                      },
+                      {
+                          "id":  "Sylas",
+                          "name":  "Sylas",
+                          "title":  "il rivoluzionario scatenato",
+                          "icon":  "Sylas.png"
+                      },
+                      {
+                          "id":  "Syndra",
+                          "name":  "Syndra",
+                          "title":  "la sovrana dell\u0027oscuritÃ ",
+                          "icon":  "Syndra.png"
+                      },
+                      {
+                          "id":  "TahmKench",
+                          "name":  "Tahm Kench",
+                          "title":  "Il re del fiume",
+                          "icon":  "TahmKench.png"
+                      },
+                      {
+                          "id":  "Taliyah",
+                          "name":  "Taliyah",
+                          "title":  "la tessitrice di pietre",
+                          "icon":  "Taliyah.png"
+                      },
+                      {
+                          "id":  "Talon",
+                          "name":  "Talon",
+                          "title":  "l\u0027ombra della lama",
+                          "icon":  "Talon.png"
+                      },
+                      {
+                          "id":  "Taric",
+                          "name":  "Taric",
+                          "title":  "lo scudo di Valoran",
+                          "icon":  "Taric.png"
+                      },
+                      {
+                          "id":  "Teemo",
+                          "name":  "Teemo",
+                          "title":  "il rapido scout",
+                          "icon":  "Teemo.png"
+                      },
+                      {
+                          "id":  "Thresh",
+                          "name":  "Thresh",
+                          "title":  "Il carceriere",
+                          "icon":  "Thresh.png"
+                      },
+                      {
+                          "id":  "Tristana",
+                          "name":  "Tristana",
+                          "title":  "l\u0027artigliere degli yordle",
+                          "icon":  "Tristana.png"
+                      },
+                      {
+                          "id":  "Trundle",
+                          "name":  "Trundle",
+                          "title":  "il re dei troll",
+                          "icon":  "Trundle.png"
+                      },
+                      {
+                          "id":  "Tryndamere",
+                          "name":  "Tryndamere",
+                          "title":  "il re barbaro",
+                          "icon":  "Tryndamere.png"
+                      },
+                      {
+                          "id":  "TwistedFate",
+                          "name":  "Twisted Fate",
+                          "title":  "il maestro di carte",
+                          "icon":  "TwistedFate.png"
+                      },
+                      {
+                          "id":  "Twitch",
+                          "name":  "Twitch",
+                          "title":  "il ratto della peste",
+                          "icon":  "Twitch.png"
+                      },
+                      {
+                          "id":  "Udyr",
+                          "name":  "Udyr",
+                          "title":  "l\u0027eremita spirituale",
+                          "icon":  "Udyr.png"
+                      },
+                      {
+                          "id":  "Urgot",
+                          "name":  "Urgot",
+                          "title":  "il dreadnought",
+                          "icon":  "Urgot.png"
+                      },
+                      {
+                          "id":  "Varus",
+                          "name":  "Varus",
+                          "title":  "la freccia del castigo",
+                          "icon":  "Varus.png"
+                      },
+                      {
+                          "id":  "Vayne",
+                          "name":  "Vayne",
+                          "title":  "la cacciatrice notturna",
+                          "icon":  "Vayne.png"
+                      },
+                      {
+                          "id":  "Veigar",
+                          "name":  "Veigar",
+                          "title":  "il piccolo genio del male",
+                          "icon":  "Veigar.png"
+                      },
+                      {
+                          "id":  "Velkoz",
+                          "name":  "Vel\u0027Koz",
+                          "title":  "l\u0027occhio del Vuoto",
+                          "icon":  "Velkoz.png"
+                      },
+                      {
+                          "id":  "Vex",
+                          "name":  "Vex",
+                          "title":  "l\u0027Ombramante",
+                          "icon":  "Vex.png"
+                      },
+                      {
+                          "id":  "Vi",
+                          "name":  "Vi",
+                          "title":  "la legge di Piltover",
+                          "icon":  "Vi.png"
+                      },
+                      {
+                          "id":  "Viego",
+                          "name":  "Viego",
+                          "title":  "Il Re in rovina",
+                          "icon":  "Viego.png"
+                      },
+                      {
+                          "id":  "Viktor",
+                          "name":  "Viktor",
+                          "title":  "l\u0027araldo dell\u0027Arcane",
+                          "icon":  "Viktor.png"
+                      },
+                      {
+                          "id":  "Vladimir",
+                          "name":  "Vladimir",
+                          "title":  "il mietitore cremisi",
+                          "icon":  "Vladimir.png"
+                      },
+                      {
+                          "id":  "Volibear",
+                          "name":  "Volibear",
+                          "title":  "la Tempesta implacabile",
+                          "icon":  "Volibear.png"
+                      },
+                      {
+                          "id":  "Warwick",
+                          "name":  "Warwick",
+                          "title":  "la furia scatenata di Zaun",
+                          "icon":  "Warwick.png"
+                      },
+                      {
+                          "id":  "Xayah",
+                          "name":  "Xayah",
+                          "title":  "la ribelle",
+                          "icon":  "Xayah.png"
+                      },
+                      {
+                          "id":  "Xerath",
+                          "name":  "Xerath",
+                          "title":  "il magus ascendente",
+                          "icon":  "Xerath.png"
+                      },
+                      {
+                          "id":  "XinZhao",
+                          "name":  "Xin Zhao",
+                          "title":  "il siniscalco di Demacia",
+                          "icon":  "XinZhao.png"
+                      },
+                      {
+                          "id":  "Yasuo",
+                          "name":  "Yasuo",
+                          "title":  "il reietto",
+                          "icon":  "Yasuo.png"
+                      },
+                      {
+                          "id":  "Yone",
+                          "name":  "Yone",
+                          "title":  "l\u0027imperituro",
+                          "icon":  "Yone.png"
+                      },
+                      {
+                          "id":  "Yorick",
+                          "name":  "Yorick",
+                          "title":  "Il pastore delle anime perdute",
+                          "icon":  "Yorick.png"
+                      },
+                      {
+                          "id":  "Yunara",
+                          "name":  "Yunara",
+                          "title":  "la fede incrollabile",
+                          "icon":  "Yunara.png"
+                      },
+                      {
+                          "id":  "Yuumi",
+                          "name":  "Yuumi",
+                          "title":  "la gattina magica",
+                          "icon":  "Yuumi.png"
+                      },
+                      {
+                          "id":  "Zaahen",
+                          "name":  "Zaahen",
+                          "title":  "L\u0027interminabile",
+                          "icon":  "Zaahen.png"
+                      },
+                      {
+                          "id":  "Zac",
+                          "name":  "Zac",
+                          "title":  "l\u0027arma segreta",
+                          "icon":  "Zac.png"
+                      },
+                      {
+                          "id":  "Zed",
+                          "name":  "Zed",
+                          "title":  "il maestro delle ombre",
+                          "icon":  "Zed.png"
+                      },
+                      {
+                          "id":  "Zeri",
+                          "name":  "Zeri",
+                          "title":  "La scintilla di Zaun",
+                          "icon":  "Zeri.png"
+                      },
+                      {
+                          "id":  "Ziggs",
+                          "name":  "Ziggs",
+                          "title":  "l\u0027esperto di hexplosivi",
+                          "icon":  "Ziggs.png"
+                      },
+                      {
+                          "id":  "Zilean",
+                          "name":  "Zilean",
+                          "title":  "il custode del tempo",
+                          "icon":  "Zilean.png"
+                      },
+                      {
+                          "id":  "Zoe",
+                          "name":  "Zoe",
+                          "title":  "l\u0027incarnazione del crepuscolo",
+                          "icon":  "Zoe.png"
+                      },
+                      {
+                          "id":  "Zyra",
+                          "name":  "Zyra",
+                          "title":  "La dama dei rovi",
+                          "icon":  "Zyra.png"
+                      }
+                  ]
+}

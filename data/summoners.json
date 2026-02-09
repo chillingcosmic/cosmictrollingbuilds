@@ -1,0 +1,54 @@
+{
+    "meta":  {
+                 "version":  "16.3.1",
+                 "locale":  "it_IT",
+                 "generatedAt":  "2026-02-09T14:12:32"
+             },
+    "summoners":  [
+                      {
+                          "id":  "SummonerBarrier",
+                          "name":  "Barriera",
+                          "icon":  "SummonerBarrier.png"
+                      },
+                      {
+                          "id":  "SummonerBoost",
+                          "name":  "Purificazione",
+                          "icon":  "SummonerBoost.png"
+                      },
+                      {
+                          "id":  "SummonerDot",
+                          "name":  "Ustione",
+                          "icon":  "SummonerDot.png"
+                      },
+                      {
+                          "id":  "SummonerExhaust",
+                          "name":  "Sfinimento",
+                          "icon":  "SummonerExhaust.png"
+                      },
+                      {
+                          "id":  "SummonerFlash",
+                          "name":  "Flash",
+                          "icon":  "SummonerFlash.png"
+                      },
+                      {
+                          "id":  "SummonerHaste",
+                          "name":  "SpettralitÃ ",
+                          "icon":  "SummonerHaste.png"
+                      },
+                      {
+                          "id":  "SummonerHeal",
+                          "name":  "Guarigione",
+                          "icon":  "SummonerHeal.png"
+                      },
+                      {
+                          "id":  "SummonerSmite",
+                          "name":  "Punizione",
+                          "icon":  "SummonerSmite.png"
+                      },
+                      {
+                          "id":  "SummonerTeleport",
+                          "name":  "Teletrasporto",
+                          "icon":  "SummonerTeleport.png"
+                      }
+                  ]
+}

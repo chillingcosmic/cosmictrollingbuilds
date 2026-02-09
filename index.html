@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LoL Cosmic Troll Build Lab (Offline)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Orbitron:wght@500;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #090b1a;
+      --bg-2: #0b1026;
+      --ink: #e6edf7;
+      --muted: #9aa6c4;
+      --accent: #7c5cff;
+      --accent-2: #31d0ff;
+      --card: rgba(12, 18, 48, 0.75);
+      --line: rgba(124, 92, 255, 0.25);
+      --shadow: rgba(9, 12, 28, 0.55);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Space Grotesk", "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: radial-gradient(900px 900px at 10% -10%, #2a145a 0, transparent 55%),
+                  radial-gradient(800px 800px at 110% 10%, #123b7a 0, transparent 55%),
+                  linear-gradient(160deg, var(--bg) 0%, var(--bg-2) 100%);
+      min-height: 100vh;
+    }
+    body::before, body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background-image:
+        radial-gradient(1px 1px at 12% 18%, rgba(255,255,255,0.7) 0, transparent 50%),
+        radial-gradient(1px 1px at 28% 72%, rgba(255,255,255,0.5) 0, transparent 50%),
+        radial-gradient(1px 1px at 64% 22%, rgba(255,255,255,0.6) 0, transparent 50%),
+        radial-gradient(1px 1px at 78% 64%, rgba(255,255,255,0.4) 0, transparent 50%),
+        radial-gradient(1px 1px at 90% 30%, rgba(255,255,255,0.5) 0, transparent 50%);
+      opacity: 0.6;
+      z-index: 0;
+    }
+    body::after {
+      opacity: 0.35;
+      filter: blur(0.2px);
+      transform: scale(1.02);
+    }
+    header {
+      padding: 28px 24px 16px;
+      border-bottom: 1px solid rgba(124, 92, 255, 0.25);
+      background: rgba(8, 12, 32, 0.8);
+      backdrop-filter: blur(6px);
+      position: sticky;
+      top: 0;
+      z-index: 5;
+    }
+    header h1 {
+      margin: 0 0 6px;
+      font-size: clamp(24px, 3vw, 32px);
+      letter-spacing: 0.5px;
+      font-family: "Orbitron", "Space Grotesk", sans-serif;
+    }
+    header p {
+      margin: 0;
+      color: var(--muted);
+    }
+    main {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 24px;
+      padding: 24px;
+    }
+    @media (max-width: 980px) {
+      main { grid-template-columns: 1fr; }
+    }
+    .panel {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      box-shadow: 0 12px 28px var(--shadow);
+      padding: 18px;
+      position: relative;
+      z-index: 1;
+    }
+    .panel h2 {
+      margin: 0 0 12px;
+      font-size: 18px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--accent-2);
+    }
+    .field { margin-bottom: 14px; }
+    .field label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+    }
+    .field input, .field select {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(124, 92, 255, 0.35);
+      font-size: 15px;
+      background: rgba(7, 12, 32, 0.75);
+      color: var(--ink);
+    }
+    .inline-row {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .inline-row select {
+      flex: 1;
+    }
+    .small-btn {
+      border: 1px solid var(--line);
+      background: #fff;
+      border-radius: 10px;
+      padding: 10px 12px;
+      font-weight: 600;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .role-row {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 8px;
+    }
+    .role-row button {
+      border: 1px solid rgba(124, 92, 255, 0.35);
+      background: rgba(7, 12, 32, 0.75);
+      border-radius: 10px;
+      padding: 10px 6px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      color: var(--ink);
+    }
+    .role-row button.active {
+      background: linear-gradient(140deg, var(--accent) 0%, #4aa3ff 100%);
+      color: #fff;
+      border-color: var(--accent);
+    }
+    .filters {
+      display: grid;
+      gap: 8px;
+      padding: 10px;
+      background: rgba(7, 12, 32, 0.6);
+      border: 1px dashed rgba(124, 92, 255, 0.35);
+      border-radius: 12px;
+    }
+    .filters label {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .cta {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 12px;
+    }
+    .cta button {
+      border: none;
+      border-radius: 12px;
+      padding: 12px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--accent) 0%, #4aa3ff 100%);
+      color: #fff;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+    .cta button.secondary {
+      background: rgba(7, 12, 32, 0.8);
+      color: var(--accent-2);
+      border: 1px solid var(--accent-2);
+    }
+    .cta button.ghost {
+      background: #fff;
+      color: var(--accent-2);
+      border: 1px dashed var(--accent-2);
+    }
+    .cta button:active { transform: translateY(1px); }
+
+    .status {
+      color: var(--muted);
+      font-size: 14px;
+      margin-top: 6px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+    .card {
+      border: 1px solid rgba(124, 92, 255, 0.25);
+      border-radius: 14px;
+      background: rgba(7, 12, 32, 0.8);
+      padding: 12px;
+      display: grid;
+      gap: 8px;
+    }
+    .card img {
+      width: 48px;
+      height: 48px;
+      border-radius: 10px;
+      background: #f1f1f1;
+    }
+    .card h3 { margin: 0; font-size: 15px; }
+    .card p { margin: 0; font-size: 12px; color: var(--muted); }
+    .card p .stats { color: var(--accent); font-weight: 600; }
+    .card p active { color: var(--accent-2); font-weight: 600; }
+    .card p passive { color: #2563eb; font-weight: 600; }
+    .card p attention { color: #ef4444; font-weight: 600; }
+    .section-title {
+      margin: 10px 0 8px;
+      font-size: 14px;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .champion-box {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 10px;
+      background: rgba(17, 24, 58, 0.7);
+      border-radius: 14px;
+      border: 1px solid rgba(124, 92, 255, 0.25);
+    }
+    .champion-box img {
+      width: 64px;
+      height: 64px;
+      border-radius: 12px;
+    }
+    .theme-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
+      background: rgba(7, 12, 32, 0.7);
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--accent);
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>LoL Troll Build Lab (Offline)</h1>
+    <p>Versione locale: nessuna API, nessun caricamento esterno.</p>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Impostazioni</h2>
+      <div class="field">
+        <label for="search">Cerca campione</label>
+        <input id="search" type="text" placeholder="Es: Garen, Ahri, Lee Sin" />
+      </div>
+      <div class="field">
+        <label for="champion">Campione</label>
+        <div class="inline-row">
+          <select id="champion"></select>
+          <button id="randomChamp" class="small-btn" type="button">Random</button>
+        </div>
+      </div>
+      <div class="field">
+        <label>Ruolo</label>
+        <div class="role-row" id="roles">
+          <button data-role="top" class="active">Top</button>
+          <button data-role="jungle">Jungle</button>
+          <button data-role="mid">Mid</button>
+          <button data-role="bot">Bot</button>
+          <button data-role="support">Support</button>
+        </div>
+      </div>
+      <div class="field">
+        <label>Filtri troll</label>
+        <div class="status">Filtri disattivati (versione locale).</div>
+      </div>
+      <div class="cta">
+        <button id="generate">Genera troll build</button>
+        <button id="reroll" class="secondary">Reroll</button>
+      </div>
+      <div class="status" id="status"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Risultato</h2>
+      <div id="output">
+        <p class="status">Seleziona un campione e premi Genera.</p>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const palette = ["#0f6d5f","#d9714f","#3b82f6","#9333ea","#ef4444","#16a34a","#f59e0b","#0ea5e9"];
+    function iconData(label, color) {
+      const parts = label.trim().split(/\s+/);
+      const initials = (parts[0]?.[0] || "").toUpperCase() + (parts[1]?.[0] || "");
+      const svg = `
+        <svg xmlns="http://www.w3.org/2000/svg" width="96" height="96">
+          <rect width="96" height="96" rx="16" fill="${color}"/>
+          <text x="50%" y="56%" text-anchor="middle" font-family="Segoe UI, Arial" font-size="34" fill="#fff" font-weight="700">${initials}</text>
+        </svg>`;
+      return "data:image/svg+xml;utf8," + encodeURIComponent(svg);
+    }
+
+    function fixText(str) {
+      if (!str) return str;
+      if (/[ÃÂ]/.test(str)) {
+        try {
+          return decodeURIComponent(escape(str));
+        } catch (err) {
+          return str;
+        }
+      }
+      return str;
+    }
+
+    const DATA = {
+      champions: [
+        { id: "Garen", name: "Garen", title: "The Might of Demacia" },
+        { id: "Ahri", name: "Ahri", title: "The Nine-Tailed Fox" },
+        { id: "LeeSin", name: "Lee Sin", title: "The Blind Monk" },
+        { id: "Jinx", name: "Jinx", title: "The Loose Cannon" },
+        { id: "Thresh", name: "Thresh", title: "The Chain Warden" },
+        { id: "Lux", name: "Lux", title: "The Lady of Luminosity" },
+        { id: "Darius", name: "Darius", title: "The Hand of Noxus" },
+        { id: "Yasuo", name: "Yasuo", title: "The Unforgiven" },
+        { id: "Zed", name: "Zed", title: "The Master of Shadows" },
+        { id: "Annie", name: "Annie", title: "The Dark Child" },
+        { id: "Morgana", name: "Morgana", title: "The Fallen" },
+        { id: "Kaisa", name: "Kai'Sa", title: "Daughter of the Void" },
+        { id: "Nautilus", name: "Nautilus", title: "The Titan of the Depths" },
+        { id: "Malphite", name: "Malphite", title: "Shard of the Monolith" },
+        { id: "Teemo", name: "Teemo", title: "The Swift Scout" },
+        { id: "Riven", name: "Riven", title: "The Exile" },
+        { id: "Nasus", name: "Nasus", title: "The Curator of the Sands" },
+        { id: "Vayne", name: "Vayne", title: "The Night Hunter" },
+        { id: "Leona", name: "Leona", title: "The Radiant Dawn" },
+        { id: "Sejuani", name: "Sejuani", title: "Fury of the North" },
+        { id: "Syndra", name: "Syndra", title: "The Dark Sovereign" },
+        { id: "Ezreal", name: "Ezreal", title: "The Prodigal Explorer" },
+        { id: "Sona", name: "Sona", title: "Maven of the Strings" },
+        { id: "Shen", name: "Shen", title: "Eye of Twilight" },
+        { id: "Graves", name: "Graves", title: "The Outlaw" }
+      ],
+      items: [
+        { id: "1001", name: "Infinity Edge", tags: ["Damage","CriticalStrike"], isMythic: false, isLegendary: true },
+        { id: "1002", name: "Rabadon's Deathcap", tags: ["SpellDamage"], isMythic: false, isLegendary: true },
+        { id: "1003", name: "Luden's Companion", tags: ["SpellDamage","Mana"], isMythic: true, isLegendary: false },
+        { id: "1004", name: "Sunfire Aegis", tags: ["Armor","Health"], isMythic: true, isLegendary: false },
+        { id: "1005", name: "Jak'Sho", tags: ["Armor","MagicResist","Health"], isMythic: true, isLegendary: false },
+        { id: "1006", name: "Kraken Slayer", tags: ["Damage","AttackSpeed"], isMythic: true, isLegendary: false },
+        { id: "1007", name: "Trinity Force", tags: ["Damage","AttackSpeed","Health"], isMythic: true, isLegendary: false },
+        { id: "1008", name: "Phantom Dancer", tags: ["AttackSpeed","CriticalStrike"], isMythic: false, isLegendary: true },
+        { id: "1009", name: "Runaan's Hurricane", tags: ["AttackSpeed","CriticalStrike"], isMythic: false, isLegendary: true },
+        { id: "1010", name: "Blade of the Ruined King", tags: ["Damage","LifeSteal","OnHit"], isMythic: false, isLegendary: true },
+        { id: "1011", name: "Nashor's Tooth", tags: ["SpellDamage","AttackSpeed","OnHit"], isMythic: false, isLegendary: true },
+        { id: "1012", name: "Lich Bane", tags: ["SpellDamage","Mana","OnHit"], isMythic: false, isLegendary: true },
+        { id: "1013", name: "Zhonya's Hourglass", tags: ["Armor","SpellDamage"], isMythic: false, isLegendary: true },
+        { id: "1014", name: "Banshee's Veil", tags: ["MagicResist","SpellDamage"], isMythic: false, isLegendary: true },
+        { id: "1015", name: "Randuin's Omen", tags: ["Armor","Health"], isMythic: false, isLegendary: true },
+        { id: "1016", name: "Thornmail", tags: ["Armor","Health"], isMythic: false, isLegendary: true },
+        { id: "1017", name: "Spirit Visage", tags: ["MagicResist","Health"], isMythic: false, isLegendary: true },
+        { id: "1018", name: "Warmog's Armor", tags: ["Health"], isMythic: false, isLegendary: true },
+        { id: "1019", name: "Dead Man's Plate", tags: ["Armor","Health"], isMythic: false, isLegendary: true },
+        { id: "1020", name: "Force of Nature", tags: ["MagicResist","Health"], isMythic: false, isLegendary: true },
+        { id: "1021", name: "Guinsoo's Rageblade", tags: ["AttackSpeed","OnHit"], isMythic: false, isLegendary: true },
+        { id: "1022", name: "Lord Dominik's Regards", tags: ["Damage","CriticalStrike"], isMythic: false, isLegendary: true },
+        { id: "1023", name: "Mortal Reminder", tags: ["Damage","CriticalStrike"], isMythic: false, isLegendary: true },
+        { id: "1024", name: "Guardian Angel", tags: ["Damage","Armor"], isMythic: false, isLegendary: true },
+        { id: "1025", name: "Black Cleaver", tags: ["Damage","Health"], isMythic: false, isLegendary: true },
+        { id: "1026", name: "Serylda's Grudge", tags: ["Damage"], isMythic: false, isLegendary: true },
+        { id: "1027", name: "Rylai's Crystal Scepter", tags: ["SpellDamage","Health"], isMythic: false, isLegendary: true },
+        { id: "1028", name: "Morellonomicon", tags: ["SpellDamage","Health"], isMythic: false, isLegendary: true },
+        { id: "1029", name: "Hextech Rocketbelt", tags: ["SpellDamage","Health"], isMythic: true, isLegendary: false },
+        { id: "1030", name: "Goredrinker", tags: ["Damage","Health"], isMythic: true, isLegendary: false },
+        { id: "1031", name: "Eclipse", tags: ["Damage"], isMythic: true, isLegendary: false },
+        { id: "1032", name: "Night Harvester", tags: ["SpellDamage"], isMythic: true, isLegendary: false }
+      ],
+      summoners: [
+        { id: "SummonerFlash", name: "Flash" },
+        { id: "SummonerIgnite", name: "Ignite" },
+        { id: "SummonerTeleport", name: "Teleport" },
+        { id: "SummonerGhost", name: "Ghost" },
+        { id: "SummonerHeal", name: "Heal" },
+        { id: "SummonerBarrier", name: "Barrier" },
+        { id: "SummonerExhaust", name: "Exhaust" },
+        { id: "SummonerSmite", name: "Smite" }
+      ]
+    };
+    const LOCAL_ITEMS_URL = "data/items.json";
+    const LOCAL_CHAMPIONS_URL = "data/champions.json";
+    const LOCAL_SUMMONERS_URL = "data/summoners.json";
+    const LOCAL_ITEMS_ICON_BASE = "assets/items/";
+    const LOCAL_CHAMPIONS_ICON_BASE = "assets/champions/";
+    const LOCAL_SUMMONERS_ICON_BASE = "assets/summoners/";
+
+    const themeLabels = {
+      "Armor": "Armatura pura",
+      "MagicResist": "Resistenza magica",
+      "Damage": "Danno brutale",
+      "AttackSpeed": "Attack speed",
+      "CriticalStrike": "Critici assurdi",
+      "Health": "Mega HP",
+      "Mana": "Mana infinito",
+      "SpellDamage": "AP strana",
+      "LifeSteal": "Vampirismo",
+      "OnHit": "On-hit meme"
+    };
+
+    const state = {
+      champions: DATA.champions,
+      items: DATA.items,
+      spells: DATA.summoners,
+      role: "top",
+      lastBuild: null,
+      itemsMeta: null
+    };
+
+    const els = {
+      search: document.getElementById("search"),
+      champion: document.getElementById("champion"),
+      randomChamp: document.getElementById("randomChamp"),
+      roles: document.getElementById("roles"),
+      status: document.getElementById("status"),
+      output: document.getElementById("output"),
+      generate: document.getElementById("generate"),
+      reroll: document.getElementById("reroll"),
+      share: null,
+      copy: null
+    };
+
+    function setStatus(msg) { els.status.textContent = msg || ""; }
+
+    async function fetchJsonUtf8(url) {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const buf = await res.arrayBuffer();
+      let text = new TextDecoder("utf-8").decode(buf);
+      if (text.charCodeAt(0) === 0xFEFF) {
+        text = text.slice(1);
+      }
+      return JSON.parse(text);
+    }
+
+    async function loadLocalItems() {
+      try {
+        const data = await fetchJsonUtf8(LOCAL_ITEMS_URL);
+        if (Array.isArray(data.items)) {
+          state.items = data.items.map((it, idx) => ({
+            ...it,
+            id: it.id || String(idx),
+            name: fixText(it.name),
+            plaintext: fixText(it.plaintext),
+            description: fixText(it.description),
+            isBootT3: !!it.isBootT3
+          }));
+          state.itemsMeta = data.meta || null;
+          const metaText = data.meta ? `Oggetti locali: patch ${data.meta.version} (${data.meta.locale})` : "Oggetti locali caricati";
+          setStatus(metaText);
+          return;
+        }
+        throw new Error("Formato items.json non valido");
+      } catch (err) {
+        setStatus("Dati locali non trovati. Usa lo script per scaricare gli oggetti.");
+      }
+    }
+
+    async function loadLocalChampions() {
+      try {
+        const data = await fetchJsonUtf8(LOCAL_CHAMPIONS_URL);
+        if (Array.isArray(data.champions)) {
+          state.champions = data.champions.map((c) => ({
+            ...c,
+            name: fixText(c.name),
+            title: fixText(c.title)
+          }));
+          renderChampionSelect();
+          return;
+        }
+        throw new Error("Formato champions.json non valido");
+      } catch (err) {
+        // keep default list
+      }
+    }
+
+    async function loadLocalSummoners() {
+      try {
+        const data = await fetchJsonUtf8(LOCAL_SUMMONERS_URL);
+        if (Array.isArray(data.summoners)) {
+          state.spells = data.summoners.map((s) => ({
+            ...s,
+            name: fixText(s.name)
+          }));
+          return;
+        }
+        throw new Error("Formato summoners.json non valido");
+      } catch (err) {
+        // keep default list
+      }
+    }
+
+    function shuffle(arr, rnd = Math.random) {
+      const copy = arr.slice();
+      for (let i = copy.length - 1; i > 0; i--) {
+        const j = Math.floor(rnd() * (i + 1));
+        [copy[i], copy[j]] = [copy[j], copy[i]];
+      }
+      return copy;
+    }
+
+    function renderChampionSelect() {
+      if (!Array.isArray(state.champions) || state.champions.length === 0) {
+        state.champions = DATA.champions;
+      }
+      const search = els.search.value.trim().toLowerCase();
+      const current = els.champion.value;
+      els.champion.innerHTML = "";
+      state.champions
+        .filter((c) => c.name.toLowerCase().includes(search))
+        .forEach((c) => {
+          const opt = document.createElement("option");
+          opt.value = c.id;
+          opt.textContent = c.name;
+          if (c.id === current) opt.selected = true;
+          els.champion.appendChild(opt);
+        });
+      if (!els.champion.value && els.champion.options.length) {
+        els.champion.selectedIndex = 0;
+      }
+    }
+
+    function pickTheme(items, rnd) {
+      const tags = new Map();
+      items.forEach((item) => {
+        (item.tags || []).forEach((tag) => {
+          if (themeLabels[tag]) tags.set(tag, (tags.get(tag) || 0) + 1);
+        });
+      });
+      const candidates = Array.from(tags.keys());
+      if (!candidates.length) return null;
+      return candidates[Math.floor(rnd() * candidates.length)];
+    }
+
+    function pickItems(role, rnd) {
+      let pool = state.items.slice();
+
+      if (role !== "jungle") {
+        pool = pool.filter((i) => !(i.tags || []).includes("Jungle"));
+      }
+      if (!pool.length) {
+        setStatus("Nessun item disponibile.");
+        pool = state.items.slice();
+      }
+
+      const isBoot = (it) => (it.tags || []).includes("Boots");
+      let bootsPool = pool.filter((i) => isBoot(i) && (role === "mid" || !i.isBootT3));
+      let nonBootsPool = pool.filter((i) => !isBoot(i));
+
+      const theme = pickTheme(nonBootsPool.length ? nonBootsPool : pool, rnd);
+      const themed = theme ? (nonBootsPool.length ? nonBootsPool : pool).filter((i) => (i.tags || []).includes(theme)) : [];
+
+      const targetBoots = bootsPool.length ? 1 : 0;
+      const desiredTotal = (role === "bot") ? 7 : 6;
+      const targetTotal = Math.min(desiredTotal, pool.length);
+      const targetNonBoots = Math.max(0, targetTotal - targetBoots);
+      const chosen = [];
+      const seen = new Set();
+
+      const pickFrom = (list, count) => {
+        const start = chosen.length;
+        const shuffled = shuffle(list, rnd);
+        for (const it of shuffled) {
+          if (chosen.length - start >= count) break;
+          if (!it || seen.has(it.id)) continue;
+          seen.add(it.id);
+          chosen.push(it);
+        }
+      };
+
+      // pick non-boots first (prefer themed)
+      if (targetNonBoots > 0) {
+        pickFrom(themed, targetNonBoots);
+        if (chosen.length < targetNonBoots) {
+          pickFrom(nonBootsPool, targetNonBoots - chosen.length);
+        }
+      }
+
+      // ensure exactly one pair of boots if available
+      if (targetBoots && bootsPool.length && chosen.length < targetTotal) {
+        const boot = bootsPool[Math.floor(rnd() * bootsPool.length)];
+        if (!seen.has(boot.id)) seen.add(boot.id);
+        chosen.push(boot);
+      }
+
+      // if still under target (few items available), top up from full pool without duplicates
+      if (chosen.length < targetTotal) {
+        const extraPool = nonBootsPool.length ? nonBootsPool : pool.filter((i) => !isBoot(i));
+        const poolShuffled = shuffle(extraPool.length ? extraPool : pool, rnd);
+        for (const it of poolShuffled) {
+          if (chosen.length >= targetTotal) break;
+          if (!it || seen.has(it.id)) continue;
+          if (isBoot(it)) continue;
+          seen.add(it.id);
+          chosen.push(it);
+        }
+      }
+
+      return { items: chosen, theme };
+    }
+
+    function pickSummoners(role, rnd) {
+      let pool = state.spells.slice();
+      if (role !== "jungle") {
+        pool = pool.filter((s) => s.id !== "SummonerSmite");
+      }
+      return shuffle(pool, rnd).slice(0, 2);
+    }
+
+    function buildCard(icon, title, desc, isHtml) {
+      const card = document.createElement("div");
+      card.className = "card";
+      const im = document.createElement("img");
+      im.src = icon;
+      im.alt = title;
+      const h3 = document.createElement("h3");
+      h3.textContent = title;
+      const p = document.createElement("p");
+      if (isHtml) {
+        p.innerHTML = desc || "";
+      } else {
+        p.textContent = desc || "";
+      }
+      card.append(im, h3, p);
+      return card;
+    }
+
+    function buildShareText(build) {
+      if (!build) return "";
+      const items = build.items.map((i) => i.name).join(", ");
+      const spells = build.spells.map((s) => s.name).join(" + ");
+      return `Troll build ${build.champ.name} (${build.role.toUpperCase()}) | Spells: ${spells} | Items: ${items}`;
+    }
+
+    function renderBuild() {
+      const champId = els.champion.value;
+      if (!champId) {
+        els.output.innerHTML = "<p class='status'>Seleziona un campione valido.</p>";
+        return;
+      }
+      const rnd = Math.random;
+      const champ = state.champions.find((c) => c.id === champId);
+      const { items, theme } = pickItems(state.role, rnd);
+      const spells = pickSummoners(state.role, rnd);
+
+      state.lastBuild = { champ, items, spells, role: state.role, theme };
+
+      const champIcon = champ.icon ? (LOCAL_CHAMPIONS_ICON_BASE + champ.icon) : iconData(champ.name, palette[0]);
+      const itemCards = items.map((item, idx) => {
+        const img = item.icon ? (LOCAL_ITEMS_ICON_BASE + item.icon) : iconData(item.name, palette[(idx + 2) % palette.length]);
+        const cost = item.gold && item.gold.total ? '<span class="stats">Costo: ' + item.gold.total + '</span><br>' : "";
+        const desc = fixText(item.description || item.plaintext || "").replace(/<br\s*\/?>/gi, "<br>");
+        return buildCard(img, item.name, cost + desc, true);
+      });
+      const spellCards = spells.map((spell, idx) => {
+        const img = spell.icon ? (LOCAL_SUMMONERS_ICON_BASE + spell.icon) : iconData(spell.name, palette[(idx + 5) % palette.length]);
+        return buildCard(img, spell.name, "", false);
+      });
+
+      els.output.innerHTML = "";
+      const champBox = document.createElement("div");
+      champBox.className = "champion-box";
+      champBox.innerHTML = `
+        <img src="${champIcon}" alt="${champ.name}" />
+        <div>
+          <div class="section-title">Campione</div>
+          <h3 style="margin:0;">${champ.name}</h3>
+          <p style="margin:0;color:var(--muted);">${champ.title}</p>
+        </div>
+      `;
+      els.output.appendChild(champBox);
+
+      if (theme) {
+        const pill = document.createElement("div");
+        pill.className = "theme-pill";
+        pill.textContent = "Tema troll: " + (themeLabels[theme] || theme);
+        els.output.appendChild(pill);
+      }
+
+      const spellsTitle = document.createElement("div");
+      spellsTitle.className = "section-title";
+      spellsTitle.textContent = "Summoner spells";
+      els.output.appendChild(spellsTitle);
+      const spellsGrid = document.createElement("div");
+      spellsGrid.className = "grid";
+      spellCards.forEach((c) => spellsGrid.appendChild(c));
+      els.output.appendChild(spellsGrid);
+
+      const itemsTitle = document.createElement("div");
+      itemsTitle.className = "section-title";
+      itemsTitle.textContent = "Oggetti";
+      els.output.appendChild(itemsTitle);
+      const itemsGrid = document.createElement("div");
+      itemsGrid.className = "grid";
+      itemCards.forEach((c) => itemsGrid.appendChild(c));
+      els.output.appendChild(itemsGrid);
+    }
+
+    els.search.addEventListener("input", renderChampionSelect);
+    els.randomChamp.addEventListener("click", () => {
+      const opts = Array.from(els.champion.options);
+      if (!opts.length) return;
+      const pick = opts[Math.floor(Math.random() * opts.length)];
+      els.champion.value = pick.value;
+      renderBuild();
+    });
+    els.generate.addEventListener("click", () => {
+      setStatus("");
+      renderBuild();
+    });
+    els.reroll.addEventListener("click", () => {
+      setStatus("");
+      renderBuild();
+    });
+    els.roles.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-role]");
+      if (!btn) return;
+      els.roles.querySelectorAll("button").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+      state.role = btn.dataset.role;
+    });
+
+    renderChampionSelect();
+    loadLocalItems();
+    loadLocalChampions();
+    loadLocalSummoners();
+  </script>
+</body>
+</html>
